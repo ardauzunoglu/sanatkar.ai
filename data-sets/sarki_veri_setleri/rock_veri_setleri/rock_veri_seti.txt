@@ -4397,7 +4397,6 @@ Uslan artık deli gönül
 Bak gelip geçiyor ömür
 Uslan artık deli divane gönül
 
-Divane gönül, divane gönül [Intro]
 Ayrı kalamam, ayrılamam yolundan
 Hayal mi bilemem, vazgeçemem aşkımdan
 Gönül ister, hissedelim derinden
@@ -4662,7 +4661,6 @@ Yanacağız ikimizde ateşte
 Bir kıvılcım yeter hazırım bak
 Aşk için ölmeli aşk o zaman aşk
 
-[Köprü]
 Allah'ım allahım ateşlere yürüyorum
 Allah'ım acı ile aşk ile büyüyorum
 
@@ -4672,7 +4670,6 @@ Dilediğin kadar acıt canımı
 Varlığında yokluğunda yetmiyor
 Varlığında yokluğunda yetmiyor
 
-[Köprü]
 Allah'ım allahım ateşlere yürüyorum
 Allah'ım acı ile aşk ile büyüyorum
 Beni yak kendini yak her şeyi yak
@@ -4770,7 +4767,6 @@ Aynı yolun eri
 Çekemezmiş seni
 Gördüğünden beri
 
-[Köprü]
 Kırmış kalbini
 Kırmış kalbini
 Kırmış kalbini
@@ -5249,7 +5245,6 @@ Arkadaş sen bu değilsin
 Görünüş sadece giysin
 Arkadaş niye gücendin?
 
-[Köprü]
 Alıştım karıştım ben sana
 Rüyanda görsen inanma
 
@@ -5257,7 +5252,6 @@ Arkadaş sen bu değildin
 Bilinen sadece ismin
 Arkadaş niye değiştin?
 
-[Köprü]
 Alıştım karıştım ben sana
 Rüyanda görsen inanma
 
@@ -5265,7 +5259,6 @@ Arkadaş sen bu değilsin
 Yaşayan sadece fikrin
 Arkadaş niye gücendin?
 
-[Köprü]
 Alıştım karıştım ben sana
 Rüyanda görsen inanma
 Sana boynumuzu eğeriz sanma
@@ -5302,7 +5295,6 @@ O zaman ne için ağlarsın?
 Ödülü almayacaktım
 Sadece koklayacaktım
 
-[Köprü]
 Tadına bakmayacaktım
 Sadece kok...
 Tadına bakmayacaktım
@@ -5325,7 +5317,6 @@ Böyle sevda akla ziyandır
 İçine çekmeyecektin
 Sadece koklayacaktın
 
-[Köprü]
 Tadına bakmayacaktım
 Sadece kok...
 Tadına bakmayacaktım
@@ -5361,7 +5352,6 @@ Ezdirme beni seni yerler
 Günahı varsa boynuma
 Günahı varsa boynuma
 Günahı varsa boynuma
-[Köprü]
 İçeriğim aynı, sözlerim bomboş
 Güzelinden takıldım, gezerim sarhoş
 
@@ -5393,7 +5383,6 @@ Elimde olsa hiç takılmam
 Yalancı dünya kaygılanmam
 Kederle dolsa da yıkılmam
 
-[Köprü]
 Hayale daldım hiç uyanmam
 Harcandım harman kaldım
 Gündüz soldum akşam açtım
@@ -5412,7 +5401,6 @@ Onlar üzer ben üzülmem
 Elimde olsa hiç düşünmem
 Ölümlü dünya derde girmem
 Sevince boğsa da değişmem
-[Köprü]
 Hayale daldım hiç gerilmem
 Harcandım harman kaldım
 Gündüz soldum akşam açtım
@@ -5652,7 +5640,6 @@ Semaya baksana, matem mi tutmuş?
 Yine bulutlar seyrini unutmuş
 Semaya baksana, matem mi tutmuş?
 
-[Köprü]
 Gökte ne ay var ne de bir yıldız
 Her taraf karanlık ve de ıssız
 
@@ -5677,7 +5664,6 @@ Sevgilimden ayrıldım, ayrıldım, aldırmasam
 Öldüm desem, derken dirilsem
 Sevgilimden ayrıldım, ayrıldım, aldırmasam
 
-[Köprü]
 Bekler benimle, bir ömür geçer
 Seni kandırdım, kandırmasam
 
@@ -5689,7 +5675,6 @@ Sevgilimden ayrıldım, ayrıldım, aldırmasam
 Soğudum desem, derken ısınsam
 Sevgilimden ayrıldım, ayrıldım, aldırmasam
 
-[Köprü]
 Bekler benimle, bir ömür geçer
 Seni kandırdım, kandırmasam
 
@@ -6186,7 +6171,6 @@ Bira ve kahve
 Bira ve kahve
 Bira ve kahve
 
-[Köprü]
 Bazen benim olmasan da
 Bazen bana bakmasan da
 Sen hep yanımdasın
@@ -6223,7 +6207,6 @@ Geçen otobüs son kalkandı
 Deliriyorken birden akıllandı
 Hemen her şeyi gerçek sandı
 
-[Köprü]
 Bir kez, bir kez, bir kez yaşarsın
 Bir kez, bir kez, bir kez yaşarsın
 
@@ -6423,7 +6406,6 @@ Lan, konuşup dursan neye yarar?
 Yaktığın ancak cürmün kadar
 Kendinden gayrı yalan
 Gerçeği gör
-[Köprü]
 Ben bir kuzgun olsam
 Sen bir yavru baykuş
 Yüz yüze buluşsak
@@ -7180,7 +7162,6 @@ Uyansın içindeki hayvan!
 Uyansın içindeki hayvan!
 Uyansın içindeki hayvan!
 
-[Köprü]
 Aldın verdin sen beni yendin
 Alamazsın beni yenemezsin
 
@@ -7420,7 +7401,6 @@ Bu yol ölüm
 Duy, duy sesim, biraz kısık, buruk
 Sonunu görür yürür deli gönül
 
-[Köprü]
 Neden mevsim olup da günüm geçmiyor
 Ellerime doğup da neden ölüyor
 Bile bile sonuçta ömür geçiyor
@@ -7434,7 +7414,6 @@ Tamam
 
 [Enstümantal]
 
-[Köprü]
 Neden mevsim olup da günüm geçmiyor
 Ellerime doğup da neden ölüyor
 Bile bile sonuçta ömür geçiyor
@@ -8221,7 +8200,6 @@ Andığım sendin
 
 Beni terk etme
 Sakın, dur gitme
-Abi niye açık olsun, buraya niye açık mikrofon koysunlar ki? [Verse 1]
 Eski günlerden çaldığın o anı düşlerken
 Solmuş resimlerde cansız yüzleri izlerken
 Yalan sevinçler yalnızlığını gizlerken
@@ -9673,7 +9651,6 @@ Ve güzel olacak bi' gün her şey dese
 Ben inanırım belki de bu yalana
 Ben de alışırım gözlerimi kapamaya
 
-[Enstrümantal]
 
 Son bir umut verse biri
 Ve güzel olacak bi' gün her şey dese
@@ -9816,7 +9793,6 @@ Beni geri dönüştürülebilen bir çöp gibi görüyo'sun
 Bak şuna bak sen kendini ne sandın a' canım
 Kimden aldıysan gazı beni ne de çabuk sattın
 
-[Köprü]
 Dün velettin bugün kendini kral mı sandın
 Aptal olma bir varmış bir yokmuş tahtın
 Wooh, wooh
@@ -9846,7 +9822,6 @@ Uyan artık uyan, bitti rüya
 Seviyorum sormadan, öpüyorum kasmadan
 Dayan artık dayan, bitti rüya
 
-[Köprü]
 Bir kez gelmişsin bu saçma dünyaya
 Olanları unutmak çok zor inan bana
 Yazdığın satırlar bile artık yalan söylüyor
@@ -9974,11 +9949,9 @@ Kaldı geriye cevapsız sorular
 Uyandığında onu ilk kim görecek?
 Bıraktığım düşü kim büyütecek?
 
-[Enstrümantal]
 (Ah)
 (Ah)
 
-[Köprü]
 Ne sen baktın ardına ne ben
 Hep ayrı yollarda yürüdük
 
@@ -10134,7 +10107,6 @@ Adına hiç yakılmasın ağıtlar, ah
 Yüzüme bak, elimi tut
 Çünkü sen "O"sun
 Çünkü sen
-[Köprü]
 Yüzüme bak, elimi tut
 Çünkü sen
 Çünkü sen
@@ -10156,7 +10128,6 @@ Daha on beş yaşında anladım
 Kimlerin ne mal olduğunu
 Ben onlar gibi aynalardan kaçmadım
 
-[Köprü]
 Ooh, ooh
 Ooh, ooh
 
@@ -10164,7 +10135,6 @@ Ooh, ooh
 Yak peruklarımı külleri essin
 Başka bir alem de gökkuşağı bilinsin
 
-[Köprü]
 Ooh, ooh
 Ooh, ooh
 
@@ -10282,7 +10252,6 @@ Bu dünya artık bana dar mı? (Dar mı?)
 Kalbimin içinde kilitlenip kaldım (Kaldım!)
 "Açıl susam açıl" desem olmaz mı? (Olmaz mı?)
 
-[Köprü]
 Boşver üzülme
 Zaten kimse senin değil
 Çok güzel yalanlar söyledik, bile bile
@@ -10324,7 +10293,6 @@ Fly, baby fly, we got to fly to stay alive
 şese words, şese words, No magic till we try
 Take a leap, leap of fate
 Reach for şe stars in şe night
-şere's miracles up in şe sky where love birds fly3 [Enstrümantal] Biz bir yalan mıydık
 Sözde mi aynıydık
 Aldatmayı öğrendik
 Şeytanlara göz kırptık
@@ -10425,7 +10393,6 @@ Gözünü aç çocuk, günahların yazılmadan
 Elimi tut çabuk, meleklerin ruhu duymadan
 Ve sonra
 Ooh, ooh, ooh
-Ooh, ooh, ooh [Enstrümantal] [Enstrümantal] [Enstrümantal] Hani biz mecazi aşkların buruk özlemiydik
 Hani biz her gün ilk kez gibi sevişirdik
 Şimdi sabahları neden bir tek kelime bile etmez olduk
 Işıklar söndüğü zaman sırtımızı dönüp uyur olduk
@@ -10459,7 +10426,6 @@ Kanatlanıp gitmek dururken
 Dört duvar içinde hapsolursun
 Yaşamak için bir neden ararken
 Ölmek için bulursun
-[Enstrümantal Ara]
 
 Hayat bu işte
 Kanatlanıp gitmek dururken
@@ -10552,7 +10518,6 @@ Bırak onu bunu, gönlünü hoş tut, hoş
 Hepsi, hepsi bir nefestir
 Gerisi boştur, boş
 
-[Köprü]
 Hepsi, hepsi bir nefes
 Bir nefestir alacağın, hepsi bir nefes
 Hepsi, hepsi bir nefes
@@ -10591,7 +10556,6 @@ Ve bu son olmayacak
 Gözyaşıyla beslediği
 Her aşk ölümü tadacak
 
-[Enstrümantal Ara]
 Bir hüzün şehri ayırdı bizi
 Ve bu son olmayacak
 Gözyaşıyla beslediği
@@ -10612,7 +10576,6 @@ Kendini prenses mi sanıyo'sun?
 Sarayına soytarı mı arıyo'sun?
 Ben taktım o ismi sana, çok yanılıyo'sun
 
-[Köprü]
 Seni kimler doldurmuş
 Kimler senden medet ummuş
 Hiç dönüp arkana baktın mı?
@@ -10637,7 +10600,6 @@ Sabır küpü gibi bir halim mi var?
 Bu ilişki artık kalbe zarar
 Bundan sonra herkes kendi yoluna bakar
 
-[Köprü]
 Seni kimler doldurmuş
 Kimler senden medet ummuş
 Hiç dönüp arkana baktın mı?
@@ -10683,7 +10645,6 @@ Hiç derinlere inen kalmadı yaram
 Ben ki kalbine gömüp içer'de ağlayan
 Şimdi aksine çıkıp, zincirlerini kıran
 
-[Köprü]
 Sözüme güven, dönmem ben kahpelik etmem
 Bu yola bir baş koydum, seni kimseye yedirmem
 İçini rahat tut, başını hep dik tut
@@ -10700,7 +10661,6 @@ Bir isim bulsan bana duyanı ürküten
 Bir yol açsan ufukta, yollara düşsem
 Yeter ki inan bana, başka bi' şey istemem
 
-[Köprü]
 Sözüme güven, dönmem beni kahpelik etmem
 Bu yola bir baş koydum, seni kimseye yedirmem
 İçini rahat tut, başını hep dik tut
@@ -10747,7 +10707,6 @@ Vurdular bizi
 "Tam inandık, tam güvendik, tam sevindik" derken
 Kovdular bizi
 
-[Köprü]
 Bir kez daha kazık yedik, bekledik
 Durduk mal gibi, gene güvendik
 Gene inandık, gene sevindik
@@ -10835,7 +10794,6 @@ Ver, ateşe ver bizi
 Ver, ateşe evimizi, bizi, ikimizi
 İz bırakanlar
 İz bırakanlar
-İz bırakanlar unutulmaz [Enstrümantal] [Giriş: Ferman Akgül]
 Her gün sabahtan akşama
 Saatinle başbaşa
 Kalmadı takvimde tek bir sayfa
@@ -10900,7 +10858,6 @@ Yanlızlığın doldururken içimi
 Görüyorum rüyanın bitişini
 Karanlığın içine usulca sinişini
 
-[1. Köprü]
 Günler, haftalar, aylar geçiyor
 Acı veren gerçek her gün sensiz doğuyor
 Bir el var sanki, beni yavaşça boğuyor
@@ -10924,7 +10881,6 @@ Yavaşça öldüren bir bulantı
 Acılarla dolu pis bir kalıntı
 Bitmez oldu lanet olası bu takıntı
 
-[1. Köprü]
 Günler, haftalar, aylar geçiyor
 Acı veren gerçek her gün sensiz doğuyor
 Bir el var sanki, beni yavaşça boğuyor
@@ -10943,7 +10899,6 @@ Arar, sorar belki bulursun
 Bulunca elbet durulursun
 En sonunda gururuna kapılıp gider
 Kaybolursun
-[2. Köprü]
 Kandırma kendini
 Kandırma kendini
 
@@ -11014,7 +10969,6 @@ Vur ve kaç bunun adı kapkaç (Köleniz değiliz)
 Vur ve kaç bunun adı kapkaç
 Satılık değiliz biz bunu böyle biliniz
 
-[Köprü]
 Saçlar başlar, dağılın lan
 Bi' kulaklarını çekmek lazım
 Vur ve kaç bunun adı kapkaç (Satılık değiliz)
@@ -11048,7 +11002,6 @@ Al sana pogo durma delir
 Zıpla!
 Durma!
 Zıpla!
-[Köprü]
 Alıyoruz sorgulamadan
 Yaşıyoruz anlayamadan
 Sahip olduklarımız
@@ -11138,7 +11091,6 @@ Sen cama tırman
 Yok içmeye bir şişe bile ayran
 Nene gerek senin taht-ı revan
 
-[Köprü]
 Şarkıyı burda yasaklasak da mı saklasak
 Oh George
 Şarkıyı yoksa yasaklamasak da mı saklasak
@@ -11251,7 +11203,6 @@ Ben miydim senin peşinden gelen?
 Sendin karşıma geçip diz çöken
 Kadın mı sandın kendini birden?
 Kaçan sen oldun kovalayan ben, of
-[Köprü]
 Daha ne kadar sana yalvaracağım be pislik
 Kadın mı sandın sen kendini bilmeden
 Daha ne kadar sana yalvaracağım be pislik
@@ -11282,7 +11233,6 @@ Başımıza otorite kesilene kadar adam olmayı öğrensinler
 Dost dediğimiz adamlar gelmiş artistlik yapıyor bize şimdi
 Bir de öğrendik ki arkamızdan konuşur olmuşlar bok gibi
 
-[Köprü]
 Bahçesinde kahpelik yaptılar sızladı Sinan'ın tüm kemikleri
 Nerede okutursan okut sen değiştiremezsin eşeği
 
@@ -11302,7 +11252,6 @@ Ona buna laf atarak kendini tatmin eden bir nesil türedi
 Kopyala yapıştır her şeyi, iyi de insan aklı bu kadar aciz mi?
 Beş para etmez muhabbetler üstüne kurulmuş şu dünya sanki
 Herkes dünyalı değil bu gezegende bak yeryüzü çok kirli
-[Köprü]
 Bahçesinde kahpelik yaptılar sızladı Sinan'ın tüm kemikleri
 Nerede okutursan okut sen değiştiremezsin eşeği
 
@@ -11442,7 +11391,6 @@ Vurdum kendimi, vurdum yollara, ovalara, dağlara ben aştım
 Arkama dönüp bakmadan, kendime sorular sormadan
 Geceleri köyleri, kentleri geçtim, yürüdüm durdum güneş doğmadan
 
-[Köprü]
 Bir gece vakti ansızın farkediverdim yalnızım
 Farkediverdim, kendime geldim, gerçeği gördüm anladım
 
@@ -11457,7 +11405,6 @@ Attım kendimi yabancı kollara, inanıp durdum boş dualara
 Şeytanı haktan, düşmanı dosttan, hayrı da şerden ayıramaz oldum
 Bir ömür sürdü hayallerim ama bir geceye sığdı tüm hüsranım
 Aklımı fikrimi çelemedi yalanlar, asla yoldan çıkmadım
-[Köprü]
 Bir gece vakti ansızın farkediverdim yalnızım
 Farkediverdim, kendime geldim, gerçeği gördüm anladım
 
@@ -11466,7 +11413,6 @@ Var mı elde ölmeme fermanım?
 Azrail gelmiş can talep eyler
 Var mı, var mı ölmeye dermanım?
 
-[Enstrümantal Ara]
 
 Üryan geldim yine üryan giderim
 Var mı elde ölmeme fermanım?
@@ -11630,7 +11576,6 @@ For just one night, we could be şe same
 No matter what şey say
 For just one night, we could be şe same
 No matter what şey say
-We could be şe same [Verse 1]
 You could be şe one in my dreams
 You could be much more şan you seem
 Anyşing I wanted in life
@@ -11792,7 +11737,6 @@ Bazı şeyler için
 Sevilmek için, aşk için
 İyi olmak yetmiyormuş
 
-[Enstrümantal Değişimi]
 
 [Son]
 Aşk biraz palavradır
@@ -11837,7 +11781,6 @@ Bazı şeyler için
 Sevilmek için, aşk için
 İyi olmak yetmiyormuş
 
-[Enstrümantal Değişimi]
 
 [Son]
 Aşk biraz palavradır
@@ -12348,7 +12291,6 @@ Hiç bilinmez neye çarptığın
 Ah, ah, ah
 Bir anda
 
-[Köprü]
 Masumiyetin ziyan olmaz
 Masumiyetin ziyan olmaz
 Masumiyetin ziyan olmaz
@@ -12401,7 +12343,6 @@ Kalbin işine bak yüzüne bakamaz
 Ağlar durur sen uyurken
 "Yalnız olamayan böyle mi yapar?" Dersen anlarım
 
-[1. Köprü]
 Aşkın içine bak, en güzeline
 Hem var hem yok mu, bile bile
 Adalet yok ya, canımı yakar bu sessizlik
@@ -12411,7 +12352,6 @@ Bilmem ne taraftayım
 Sesimi duymam
 Ne zamandır araftayım
 
-[1. Köprü]
 Aşkın içine bak, en güzeline
 Hem var hem yok mu, bile bile
 Adalet yok ya, canımı yakar bu sessizlik
@@ -12425,7 +12365,6 @@ Bilmem ne taraftayım
 Sesimi duymam
 Ne zamandır araftayım
 
-[2. Köprü]
 Kimler varmış içimde yoklama yaptım
 Deliler çıktı, cellatlar bir de şeytanlar
 
@@ -12471,7 +12410,6 @@ Atılır mıyız oyundan, benzemezsek onlara
 Bahane mi lazım?
 Mazeretimiz mi kalmamış
 
-[Köprü]
 Çok ayıp olmuş
 Çok ayıp olmuş
 
@@ -12480,7 +12418,6 @@ Takılır mıyız yolunda, şekli gizli taşlara
 Yetişmek mi lazım?
 Bahçemizde bir gül açmamış
 
-[Köprü]
 Çok ayıp olmuş
 Çok ayıp olmuş
 
@@ -12495,7 +12432,6 @@ Atılır mıyız oyundan, benzemezsek onlara
 Bahane mi lazım?
 Mazeretimiz mi kalmamış
 
-[Köprü]
 Çok ayıp olmuş
 Çok ayıp olmuş
 
@@ -12570,7 +12506,6 @@ Yeni bir hayal mi kurduk?
 Yeni bir yalan mı bulduk?
 Boyalarımız akmış suratlar yorgun
 
-[Köprü]
 Düşünmeden
 
 Yeni bir zaman mı bulduk?
@@ -12615,7 +12550,6 @@ Onlar, masum duran o saklı sayfalar
 Pistir ve temizdir sadece laf vardır orda
 Bir daha gelmem üstüne
 
-[Köprü]
 Çünkü ben kayboldum, geri dönmem imkansız
 Hem uzak hem hoyrat senin ülken
 Çünkü ben kayboldum, geri dönmem imkansız
@@ -12626,7 +12560,6 @@ Artık çok mutluyum
 Her şeyi (her), her şeyi bıraktım
 Artık çok mutluyum
 
-[Köprü]
 Çünkü ben kayboldum, geri dönmem imkansız
 Hem uzak, hem uzak hem hoyrat senin ülken
 Çünkü ben kayboldum, geri dönmem imkansız
@@ -12911,7 +12844,6 @@ Yandı dertler bitti tasa
 Ben kurbanım bu cambaza
 İki gözüm kadar eminim sen yoksun
 
-[Köprü]
 Var mısın, yoksun
 Var mısın, yoksun
 İki gözüm, eminim, sen yoksun
@@ -13060,7 +12992,6 @@ Sadece bakardı
 Bu kadar kaos
 Bize fazlaydı ki
 
-[Köprü]
 Bir darbe
 Geldi başıma
 Bir darbe
@@ -13081,7 +13012,6 @@ Ben gitmeden
 Dîvân-ı harbe
 Sen gitmeden
 Bir darbe
-[Köprü 2]
 Sakla kendini
 Sağlam bir rövanş için
 Asmayalım da besleyelim mi?
@@ -13112,7 +13042,6 @@ Sevginiz nerde, övündüğünüz?
 Beni büyütün, aldatmayın
 Sahte düşlerle
 
-[Köprü]
 Bir yarım akıllı, bir yarım deli
 Dört yanım akıllı, bir yanım deli
 Herkes akıllı, bir ben deli
@@ -13136,7 +13065,6 @@ Her oyuna hevesli bir kahramadım
 Bir şans daha olmalı
 Yaşamam  lazım
 
-[Köprü]
 Düştükçe uzaklaştı yeryüzü
 Büyüdük sanırken küçülmüşüz meğerse
 
@@ -13211,7 +13139,6 @@ Açıkta buluşmalı
 Başka bir uyuma dönüyor
 Her şey, insan kaybettiğini buluyor
 
-[Köprü]
 Durma öyle
 Ah, durma öyle
 Başka bir uyuma dönüyor
@@ -13230,7 +13157,6 @@ Ne başı var ne sonu belli
 Uğraşırken kazanmak için
 Sormadın hiç neden niye
 
-[Köprü]
 Ve hayat sana dokununca
 Her şey nasıl da değişti
 Dönüp bakınca gördün birden
@@ -13244,7 +13170,6 @@ Karşı koymak bile yetmiyor
 Yine aynı şarkıyı söyle
 Sanki ağlar gibi kendine
 
-[Köprü]
 Ve hayat sana dokununca
 Her şey nasıl da değişti
 Dönüp bakınca gördün birden
@@ -13351,7 +13276,6 @@ Binbir kesik ve acıyla bakarsam camdan yüzüne
 Ya kaybedersem evimi ellerimde
 Binbir çiçekle ve güneşle dokunurum güzel yüzüne
 
-[Köprü]
 Saatler durunca, sabahın beşinde
 İki kişilik bulmaca
 Bir şeyler yanıyor içimde
@@ -13366,7 +13290,6 @@ Seninim en çok, ya gidemezsek uzaklara
 Ya kaybedersem seni avuçlarımdan
 Binbir kesik ve acıyla dokunurum güzel yüzüne
 
-[Köprü]
 Saatler durunca, sabahın beşinde
 İki kişilik bulmaca
 Bir şeyler yanıyor içimde
@@ -13433,7 +13356,6 @@ Bu sokaklar biraz sahici
 Biraz da eşsiz bugün
 Yarın yok, yarın neymiş
 
-[Köprü]
 Aklının ardında neler yatar bilmem
 Karanlığın dibi yok oldu sonunda
 
@@ -13445,7 +13367,6 @@ Bu bedenler biraz sahici
 Biraz da renksiz bugün
 Yarın yok, yarın neymiş, yarın neymiş
 
-[Köprü]
 Aklının ardında neler yatar bilmem
 Karanlığın dibi yok oldu sonunda
 Hayat ne anlatır neleri gizlerken
@@ -13487,7 +13408,6 @@ Uğraş didin farklı şeyler yapmak için
 Ve zaman, ve zaman farklı yüzlerle
 Bazen yanında bazen arkanda
 
-[Köprü]
 Yalan diye bir şey yok
 Gördük ama konuşmadık
 
@@ -13638,7 +13558,6 @@ Kim geliyor?
 Yanıma yanıma
 Bilmez ki
 
-[Köprü]
 Kış ortasında kaç kere yakar güneş
 
 Kış geliyor
@@ -13653,7 +13572,6 @@ Yeni rüyam da güneşimle soldu
 Yeni adamla yeni kadın doğmadan zordu
 Ayna ayna, sihirli ayna
 Neler söyledin bana?
-[Köprü 2]
 Kış ortasında kaç kere doğar güneş
 Kış geliyor
 Kış geliyor
@@ -13692,7 +13610,6 @@ Bu bir kördüğüm
 Ne ilk ne de son
 Beraber bekledik
 Yaptığımızdan ne kadar emindik
-[Köprü]
 Yaptığımızdan ne kadar emindik
 
 Durdum durdum kendime güzel bir ağ ördüm
@@ -13780,7 +13697,6 @@ Yanıyor arabalar zor rüyalarda
 Aynı sınıfta olsak ya
 Aynı sınıftan olsak ya
 
-[Köprü]
 Bir teselliye kanar mı bu yürek?
 Bir teselliye?
 
@@ -13798,7 +13714,6 @@ Yanıyor üstümde müşiş hayaletin
 Geziyor arabalar boş duvarlarda
 Aynı zamanda olsak ya
 Aynı zamanda sorsak ya
-[Köprü]
 Bir teselliye kanar mı bu yürek
 Bir teselliye?
 
@@ -13855,7 +13770,6 @@ Tanımıyorum ben seni
 Uğruna düştüğün hayal
 Gün gelecek bizi yakacak
 
-[1. Köprü]
 Şimdi aramızda yıllar, ışık yılları
 Kocaman bir boşluk var
 Şimdi aramızda dağlar
@@ -13870,7 +13784,6 @@ Düşündüm her şeyi
 Tanımıyorum ben seni
 Uğruna düştüğün hayal
 Gün gelecek bizi yakacak
-[1. Köprü]
 Şimdi aramızda yıllar, ışık yılları
 Kocaman bir boşluk var
 Şimdi aramızda dağlar
@@ -13887,13 +13800,10 @@ Vücudumda, güller açıyor
 Siz de gelin, dans edelim
 Kötü kader, terkediyor
 
-[1. Köprü]
 Aramızda yıllar, ışık yılları
 Kocaman bir boşluk var
 
-[Enstrümantal Geçiş]
 
-[2. Köprü]
 Mermiler, dans ediyor
 Vücudumda, güller açıyor
 Mermiler, dans ediyor
@@ -13901,7 +13811,6 @@ Vücudumda, güller açıyor
 Siz de gelin, dans edelim
 Siz de gelin, dans edelim
 Mermiler, dans ediyor
-[Enstrümantal Geçiş]
 
 [Son]
 Siz de gelin, dans edelim
@@ -13932,7 +13841,6 @@ Yok yok yok, bu mutluluktan
 Ağlıycam şimdi
 Yok yok yok yok
 Ağlıycam şimdi, yapma
-[Köprü]
 Bir sözüm bin yere gider, en sonunda
 Gözlerime bir bak yeter
 
@@ -14020,7 +13928,6 @@ Bir veda anı gibi
 Bıraktıkça gerçeği
 Yerinden kalkamazsın
 
-[Köprü]
 Bil ki sen sevmek istersen
 Her şeyi kurtarırsın
 Or'da durma, eğer beklersen
@@ -14037,7 +13944,6 @@ Hiç yaşanmamış gibi
 Önünde bir hayat var
 Gücün yettiği kadar
 Yaşa artık istersen
-[Köprü]
 Çünkü sen eğer istersen
 Her şeyi kurtarırsın
 Or'da durma, durup beklersen
@@ -14054,7 +13960,6 @@ Kanun mu bu yalnızlık?
 İçindeki yabancı
 El üstünde dururken kuyuya düşen
 
-[Köprü]
 Alnımda yazanlar mı?
 Aklımda kalanlar mı?
 Oyunbozan mı haklı, biri söylese
@@ -14069,7 +13974,6 @@ Geçer, geçer; zaman şu an yalan
 Nedir ki, bak, silindi hafızam
 Hayat kadar yalanmış ayrılık
 
-[Köprü]
 Alnımda yazanlar mı?
 Aklımda kalanlar mı?
 Oyunbozan mı haklı, biri söylese
@@ -14380,7 +14284,6 @@ Bak gün doğdu gerçekler her yerde
 Sırların çoğalmış, yalanın her yerde
 Lütfen dokunma geleceğe
 Affetme, affetme beni
-[Köprü]
 Aslında uzun hikaye, ama sana değmez
 Kısa kesmek gerekli, yalanına değmez, yalanına değmez
 
@@ -14412,7 +14315,6 @@ Yalnız şarkıcı, sarhoşum ölene kadar
 Sen hiç korkma, burda kal
 Küçük şarkıcı, kalp kırık kalbini onar
 Aşk diyorlar hiç görmedim, bur'da kal
-[Köprü]
 Uyuyalım artık, çok yorgunum inan, inan
 
 Yalnız şarkıcı, sarhoşum ölene kadar
@@ -14442,7 +14344,6 @@ Eskinin huzurunda el pençe divan durdum
 Ah, devrimim benim, nedir senden çektiğim
 Sen gelmedin ama ben değiştim
 
-[Köprü]
 (Aldım, verdim, ben seni yendim)
 (Kaçtın, sattın, beş paraya sattın)
 (Aldım, verdim, ben seni yendim)
@@ -14474,7 +14375,6 @@ Köpekler bile sinmiş
 Sinmiş insanlar, bekleşip duruyorlar
 Reklamlar, panolar, dükkanlar, insanlar, insanlar
 
-[Köprü]
 Bana bir kutu sevgi al
 Bir kutu umut ve neşe al
 Alabilir misin, ne duruyorsun?
@@ -14507,7 +14407,6 @@ Maksadımı aşamam
 Şiddetin meşru haline
 Bakıp ağlayamam
 
-[Köprü]
 Ne kadar güzel
 Ne kadar sıcak
 Ne kadar yakın
@@ -14523,7 +14422,6 @@ Kumandalı bir cinnet
 Vahşeti gördüm, korkmadım
 Hasar yok içimde
 
-[Köprü]
 Ne kadar güzel
 Ne kadar sıcak
 Ne kadar yakın
@@ -14533,7 +14431,6 @@ Anlasam da anlamam
 Bana saldırıyorsa
 Gözünün yaşına bakamam
 
-[Köprü 2]
 Maske takmadan üstüme gelmek zor muydu, zor muydu?
 Adı olmayanların sesi de yok mu?
 
@@ -14657,7 +14554,6 @@ Karanlık daha, ama o gün gelecek
 Karla örtülü hala
 Gün gelip izleri silinecek
 
-[Köprü]
 Eli kanlı krallar
 Köşeleri tutanlar
 
@@ -14675,7 +14571,6 @@ Bu biz mi, o ben miyim?
 Karanlık, ama o gün gelecek
 Doğup ihtişamıyla
 Hayatı insana verecek
-[Köprü]
 Eli kanlı krallar
 Köşeleri tutanlar
 
@@ -14697,7 +14592,6 @@ Bilincin bir var, bir yok
 Yalandın, yaralandın
 Dermanının ismi yok
 
-[Köprü]
 Umudun yanında mı?
 Hayatın hep zorda mı?
 Gururun yanında mı?
@@ -14723,7 +14617,6 @@ Kendini bilene sor
 Yine mi hüzün var, niye?
 Niye?
 
-[Köprü]
 Umudun yanında mı?
 Hayatın hep zorda mı?
 Gururun yanında mı?
@@ -14744,7 +14637,6 @@ Niye?
 Başlar ay doğarken saltanatı
 Sultan-ı yegahın, sultan-ı yegahın
 
-[Köprü 2]
 Tende nemli yumuşaklığı
 Denizden gelen ahın
 Gizemli kanatların
@@ -14753,13 +14645,11 @@ Ruhta ölüm karanlığının
 Başlar ay doğarken saltanatı
 Sultan-ı yegahın, sultan-ı yegahın
 
-[Köprü 1]
 Şamdanları donanınca, eski zaman sevdalarının
 
 Başlar ay doğarken saltanatı
 Sultan-ı yegahın, sultan-ı yegahın
 
-[Köprü 2]
 Tende nemli yumuşaklığı
 Denizden gelen ahın
 Gizemli kanatların
@@ -14867,7 +14757,6 @@ Bu ahlaksız oyunlara devam etmek günah
 Uyan artık uyan
 Uyan dostum uyan
 Uyan artık uyan karanlık uykundan
-[Köprü]
 Sen, yine de o yolun sonundaydın
 Sen, yine de hiçbir şey yapamazdın
 Sen, uyuşuk, tembel, yalnızdın
@@ -15974,13 +15863,11 @@ Güneş doğar meşeden de yar geliyor köşeden
 Rengini gülden almış da kokusu menekşeden
 Rengini gülden almış da kokusu menekşeden
 
-[Enstrümantal]
 
 Dua eyle sevduğum da kuş olup da uçalım
 Dua eyle sevduğum da kuş olup da uçalım
 Sevdalum he de, he de da var buradan kaçalum
 Sevdalum he de, he de da var buradan kaçalum
-[Enstrümantal] Kalbimi yerinden söktün
 Hançerleyip hapsettin
 Esaretin tadı dilimde
 Cesaretim bilmem nerde
@@ -19856,7 +19743,6 @@ Kimin bu karlar ormanları kaplayan?
 İşte öyle bir gecedeyim, açım susuz
 Hangisi gerçek, hangisi yalan
 
-[Köprü]
 Son parlayışı ateşin sönmeden önce
 Yaşamıyorum, tahammül ediyorum sadece
 
@@ -22510,7 +22396,6 @@ Sayfalarca yalnız kalpler
 Yalnız kalpler, yalnız kalpler
 Sayfalarca yalnız kalpler
 
-[Enstrümantal Ara]
 
 Kalp sesi
 
@@ -23045,7 +22930,6 @@ Senin erkeğin oImak
 Senin erkeğin oImak
 Senin erkeğin oImak
 
-İstiyorum [Verse 1]
 Gece yarısı tüm hisler yüksekte
 Gizemli bir dünya düşlerimde
 Ay gökyüzünde kibarca parıldar
@@ -23108,7 +22992,6 @@ Her şey nasıl başladıysa öyle biter
 Bir gün gelir herkes kendi yoluna gider
 Her şey nasıl başladıysa öyle biter
 
-Her şey biter [Intro]
 Sev beni yavrum
 Seç beni yavrum, tüm gece boyunca
 
@@ -23167,7 +23050,6 @@ Cihangir sokakları, huzursuz insanlar
 Artık hiç atmayan bu kalbim
 İstanbul'a ait olmuş, İstanbul'a ait olmuş
 
-İstanbul'a ait olmuş, İstanbul'a ait olmuş [Verse 1]
 Su gibi akıp gider hayat
 İnsanlar değişir, yüzler değişir
 Kimi zaman beni korkutuyor içimdeki dünya
@@ -23188,7 +23070,6 @@ Kimse bilemez, neler düşlediğimi
 Yalnızca sen duyarsın sesimi
 Çok uzaklarda
 
-[Refrain]
 Güzel olan her şey, neden çabuk biter
 Kimse bilemez, hmmm-hmmm
 Güzel olan her şey, neden çabuk biter
@@ -23404,7 +23285,6 @@ Bana önerilen her şey
 Bana dayatılan yaşantı
 İşe yaramaz bir çöplük
 
-[Pre-Chorus]
 Yarattığınız sistemler
 Kullandığınız yöntemler
 
@@ -23440,7 +23320,6 @@ Yaşamak istemem artık aranızda
 Yaşamak istemem artık aranızda
 
 
-[Chorus]
 Yaşamak istemem artık aranızda
 Yaşamak istemem artık aranızda
 Yaşamak istemem artık aranızda
