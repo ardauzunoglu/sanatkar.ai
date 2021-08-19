@@ -58,26 +58,31 @@ def index():
 
 @app.route("/metin_uret")
 def generate_text_page():
-    
     return render_template("metin_uretimi.html")
 
 @app.route("/metin_uret/<string:generator_type>", methods=["POST"])
 def generate_text_page_post(generator_type):
-
     output, runtime = generate_text(generator_type, seed_input, length_input)
 
     return render_template("metin_uretimi.html", output=output, runtime=runtime, is_text_generated=True)
 
+@app.route("/arsiv")
+def archive():
+    return render_template("arsiv.html")
+
 @app.route("/arsiv/<int:id>")
 def particular_archive_element(id):
-
     archived_generation = Archive.query.filter_by(id = id).first()
     generated_text = archived_generation.generated_text
     runtime = archived_generation.runtime
     art_branch = archived_generation.art_branch
     genre = archived_generation.genre
 
-    return render_template("arsiv.html", generated_text=generated_text, runtime=runtime, art_branch=art_branch, genre=genre)
+    return render_template("spesifik_arsiv.html", generated_text=generated_text, runtime=runtime, art_branch=art_branch, genre=genre)
+
+@app.route("/hakkimizda")
+def about_us():
+    return render_template("hakkimizda.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
