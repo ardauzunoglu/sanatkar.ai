@@ -68,7 +68,9 @@ def generate_text_page_post(generator_type):
 
 @app.route("/arsiv")
 def archive():
-    return render_template("arsiv.html")
+    archive = Archive.query.all()
+
+    return render_template("arsiv.html", archive=archive)
 
 @app.route("/arsiv/<int:id>")
 def particular_archive_element(id):
