@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from finestdevs.com/demos/shade-pro/light/cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Aug 2021 10:01:44 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sanatkar.ai - Yeni Nesil Şair</title>
+  <link rel="shortcut icon" href="{{ url_for('static', filename='image/png/favicon2.ico') }}" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts/icon-font/css/style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts/typography-font/typo.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='fonts/fontawesome-5/css/all.css') }}">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/aos/aos.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/fancybox/jquery.fancybox.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/nice-select/nice-select.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/slick/slick.min.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/date-picker/css/gijgo.min.css') }}" type="text/css" />
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='plugins/theme-mode-switcher/switcher-panel.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/theme-mode-custom.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom stylesheet -->
+</head>
+
+<body data-theme="light">
+  <div class="site-wrapper overflow-hidden">
+    <!-- Header Area -->
+    <header class="site-header site-header--menu-right  site-header--absolute">
+      <div class="container">
+        <nav class="navbar site-navbar offcanvas-active navbar-expand-lg  px-0">
+          <!-- Brand Logo-->
+          <div class="brand-logo"><a href="/">
+              <!-- light version logo (logo must be black)-->
+              <img src="image/logo-main-black.png" alt="" class="light-version-logo ">
+              <!-- Dark version logo (logo must be White)-->
+              <img src="image/logo-main-black.png" alt="" class="dark-version-logo">
+            </a></div>
+          <div class="collapse navbar-collapse" id="mobile-menu">
+            <div class="navbar-nav-wrapper">
+              <ul class="navbar-nav main-menu">
+                <li class="nav-item">
+                  <a class="text-dark nav-link" href="/about" role="button" aria-expanded="false">Biz Kimiz?</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact" role="button" aria-expanded="false">İletişim</a>
+                </li>
+                <li class="nav-item">
+                  <a class="font-weight-bold nav-link" href="/contact" role="button" aria-expanded="false"><ins>Arşiv</ins></a>
+                </li>
+                <li class="nav-item d-lg-none">
+                  <a class="font-weight-bold nav-link" href="/generator" role="button" aria-expanded="false"><ins>Bir Eser Oluşturun!</ins></a>
+                </li>
+              </ul>
+            </div>
+            <button class="d-block d-lg-none offcanvas-btn-close" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="true" aria-label="Toggle navigation">
+              <i class="gr-cross-icon"></i>
+            </button>
+          </div>
+          <div class="header-btn  ml-auto ml-lg-5 mr-6 mr-lg-0 d-none d-xs-block">
+            <a class="btn btn-app-page btn-primary gr-text-9 d-none d-xs-inline-flex " href="/generator">
+              Bir Şiir Oluşturun!
+            </a>
+          </div>
+          <!-- Mobile Menu Hamburger-->
+          <button class="navbar-toggler btn-close-off-canvas  hamburger-icon border-0" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- <i class="icon icon-simple-remove icon-close"></i> -->
+            <span class="hamburger hamburger--squeeze js-hamburger">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+            </span>
+            </span>
+          </button>
+          <!--/.Mobile Menu Hamburger Ends-->
+        </nav>
+      </div>
+    </header>
+    <!-- navbar- -->
+    <!-- Page Banner Area -->
+    <div class="inner-banner pt-20 pb-md-13 bg-default-2">
+      <div class="container">
+        <div class="row  justify-content-center pt-5">
+          <div class="col-xl-8 col-lg-9 text-center">
+            <div class="px-md-15 text-center">
+              <h2 class="title gr-text-3 mb-6">Eser Çıktısı</h2>
+              <p class="gr-text-8 mb-9">Parametreleriniz doğrultusunda oluşan eseriniz:</p>
+              <ul class="w-100 list-unstyled text-left">
+                <li class="gr-text-8 mb-3">Arşiv No: <span id="archiveno">8</span></li>
+                <li class="gr-text-8 text-dark mb-3">Seçilen Sanat Dalı: <span id="chosenart">Şarkı</span></li>
+                <li class="gr-text-8 text-dark mb-3">Seçilen Sanat Alt Dalı: <span id="chosensubart">Rap</span></li>
+                <li class="gr-text-8 text-dark mb-3">Başlangıç Metni: <span id="startingsentence">Arda baba sen çok yaşa!</span></li>
+                <li class="gr-text-8 text-dark mb-5">Çıktı Uzunluğu: <span id="outputlength">189</span> Karakter</li>
+                <li class="gr-text-6 text-dark mb-8 text-center">Çıktı:</br><span id="output">Arda baba sen çok yaşa!
+                  Canım feda olsun sana.
+                </span></li>
+              </ul>
+              <div class="header-btn  ml-auto ml-lg-5 mr-6 mr-lg-0 d-xs-block">
+                <a class="btn btn-app-page btn-primary gr-text-9 d-xs-inline-flex " href="/generator">
+                  Yeni Bir Eser Oluşturun
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-default-2 pb-1 ">
+      <div class="container">
+      </div>
+    </div>
+   <!-- Footer section -->
+   <div class="footer-section dark-mode-texts bg-blackish-blue">
+    <div class="container">
+      <div class="footer-top pt-15">
+        <div class="justify-content-center row">
+          <div class="col-6 col-lg-4">
+            <div class="single-footer mb-13 mb-lg-9">
+              <p class="footer-title gr-text-11 mb-7">Takımımız</p>
+              <ul class="footer-list list-unstyled">
+                <li class="py-2"><a class="gr-text-9 gr-text-color" href="/about">Biz Kimiz</a></li>
+                <li class="py-2"><a class="gr-text-9 gr-text-color" href="/contact">İletişim</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-6 col-lg-4">
+            <div class="single-footer mb-13 mb-lg-9">
+              <p class="footer-title gr-text-11 mb-7">Sanatkar.ai</p>
+              <ul class="footer-list list-unstyled">
+                <li class="py-2"><a class="gr-text-9 gr-text-color" href="/generator">Şiir Oluşturun</a></li>
+                <li class="py-2"><a class="gr-text-9 gr-text-color" href="/archive">Arşiv</a></li>
+                <li class="py-2"><a class="gr-text-9 gr-text-color" href="https://github.com/ardauzunoglu/sanatkar.ai">Dokümantasyon</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="single-footer mb-13 mb-lg-9">
+              <p class="footer-title gr-text-11 mb-7">İletişim Adresimiz</p>
+              <ul class="footer-list list-unstyled">
+                <li class="py-2"><a class="gr-text-9 text-primary font-weight-bold hover-underline active text-white" href="mailto:dinnenege@gmail.com">dinnenege@gmail.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-area border-top pt-9 pb-8">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <p class="copyright-text gr-text-11 mb-6 mb-lg-0 gr-text-color-opacity text-center text-lg-left">
+              © 2021 Tüm Telif Hakları Saklıdır, Sanatkar.ai
+            </p>
+          </div>
+          <!--
+          <div class="col-lg-6 text-center text-lg-right">
+            <ul class="social-icons list-unstyled mb-0">
+              <li class="ml-7"><a href="#" class="gr-text-color"><i class="icon icon-logo-twitter"></i></a></li>
+              <li class="ml-7"><a href="#" class="gr-text-color"><i class="icon icon-logo-facebook"></i></a></li>
+              <li class="ml-7"><a href="#" class="gr-text-color"><i class="icon icon-instant-camera-2"></i></a></li>
+              <li class="ml-7"><a href="#" class="gr-text-color"><i class="icon icon-logo-linkedin"></i></a></li>
+            </ul>
+          </div>
+          -->
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Vendor Scripts -->
+  <script src="{{ url_for('static', filename='js/vendor.min.js') }}"></script>
+  <!-- Plugin's Scripts -->
+  <script src="{{ url_for('static', filename='plugins/fancybox/jquery.fancybox.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='plugins/nice-select/jquery.nice-select.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='plugins/aos/aos.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='plugins/slick/slick.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='plugins/date-picker/js/gijgo.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='plugins/counter-up/jquery.waypoints.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='plugins/counter-up/jquery.counterup.min.js') }}"></script>
+  <script src="{{ url_for('static', filename='plugins/theme-mode-switcher/gr-theme-mode-switcher.js') }}"></script>
+  <!-- Activation Script -->
+  <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+</body>
+
+
+<!-- Mirrored from finestdevs.com/demos/shade-pro/light/cart.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Aug 2021 10:01:46 GMT -->
+</html>
