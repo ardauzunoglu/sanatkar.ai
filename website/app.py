@@ -12,11 +12,19 @@ db = SQLAlchemy(app)
 
 class Archive(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    generated_text = db.Column(db.String(500))
+    generated_text = db.Column(db.String(600))
     art_branch = db.Column(db.String(10))
     genre = db.Column(db.String(30))
     seed_input = db.Column(db.String(35))
     length_input = db.Column(db.String(3))
+
+class Contact(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name_and_surname = db.Column(db.String(100))
+    email = db.Column(db.String(100))
+    phone_number = db.Column(db.String(20))
+    topic = db.Column(db.String(100))
+    message = db.Column(db.String())
 
 def generate_text(model_choice, seed, length):
 
@@ -92,8 +100,22 @@ def particular_archive_element(id):
     return render_template("generator_output.html", id = id, output=output, art_branch=art_branch, genre=genre, seed_input=seed_input, length_input=length_input)
 
 @app.route("/contact")
-def about_us():
+def contact():
     return render_template("contact.html")
+
+@app.route("/contact", methods=["POST"])
+def contact_post():
+    name_and_surname = request.form["name_and_surname"]
+    email = request.form["email"]
+    phone_number = request.form["phone_number"]
+    topic = request.form["topic"]
+    message = request.form["message"]
+
+    new_contact = Contact(name_and_surname=name_and_surname, email=email, phone_number=phone_number, topic=topic, message=message)
+    db.session.add(new_contact)
+    db.session.commit()
+
+    return render_template("contact.html", contact_status="Success")
 
 @app.route("/generator")
 def generate_text_page():
