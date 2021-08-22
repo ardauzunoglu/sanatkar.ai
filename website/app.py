@@ -22,22 +22,34 @@ def generate_text(model_choice, seed, length):
         "pop":"pop_generator",
         "rap":"rap_generator",
         "rock":"rock_generator",
-        "cumhuriyet_donemi_saf_siir":"cumhuriyet_donemi_saf_siir_generator",
-        "garip_siiri":"garip_siiri_generator",
-        "milli_edebiyat":"milli_edebiyat_generator",
-        "kadin_tirad":"kadin_tirad_generator",
-        "erkek_tirad":"erkek_tirad_generator"
+        "cumhuriyet":"cumhuriyet_donemi_saf_siir_generator",
+        "garip":"garip_siiri_generator",
+        "milliedebiyat":"milli_edebiyat_generator",
+        "kadın":"kadin_tirad_generator",
+        "erkek":"erkek_tirad_generator"
+    }
+
+    art_form_dict = {
+        "pop":"song_generators",
+        "rap":"song_generators",
+        "rock":"song_generators",
+        "cumhuriyet":"poem_generators",
+        "garip":"poem_generators",
+        "milliedebiyat":"poem_generators",
+        "kadın":"tirade_generators",
+        "erkek":"tirade_generators"
     }
 
     used_model = model_dict[model_choice]
-    model = tf.saved_model.load(used_model)
+    art_form_of_model = art_form_dict[model_choice]
+    model = tf.saved_model.load("models/"+art_form_of_model+"/"+used_model)
 
     states = None
 
     next_char = tf.constant([seed])
     result = [next_char]
 
-    for n in range(length):
+    for n in range(int(length)):
         next_char, states = model.generate_one_step(next_char, states=states)
         result.append(next_char)
 
@@ -78,11 +90,30 @@ def about_us():
 def generate_text_page():
     return render_template("generator.html")
 
-@app.route("/generator_output/<string:generator_type>", methods=["POST"])
-def generate_text_page_post(generator_type):
-    output = generate_text(generator_type, seed_input, length_input)
+@app.route("/generator", methods=["POST"])
+def generate_text_page_post():
+    art_form = request.form["mainartform"]
 
-    return render_template("metin_uretimi.html", output=output, is_text_generated=True)
+    art_form_dict = {
+        "sarki":"songartform",
+        "siir":"poetartform",
+        "tirad":"tiradartform"
+    }
+    
+    sub_art_form = art_form_dict[art_form]
+
+    generator_type = request.form[sub_art_form]
+    seed_input = request.form["startinginput"]
+    length_input = request.form["outputlimit"]
+
+    output = str(generate_text(generator_type, seed_input, length_input)).replace("_", "").replace(")", "").replace("(", "").replace("'", "").replace('"',"").split("\\n")[:-1]
+
+    return render_template("generator_output.html", output = output, art_form = art_form, generator_type = generator_type, seed_input = seed_input, length_input = length_input)
+
+@app.route("/generator_output")
+def generator_output():
+    return render_template("generator_output.html", output = output, art_form = art_form, sub_art_form = sub_art_form, seed_input = seed_input, length_input = length_input)
 
 if __name__ == "__main__":
+    db.create_all()
     app.run(debug=True)

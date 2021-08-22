@@ -43,13 +43,13 @@
               <a href="/">
                 <!-- light version logo (logo must be black)-->
                 <img
-                  src="image/logo-main-black.png"
+                  src="{{ url_for('static', filename='image/logo-main-black.png') }}"
                   alt=""
                   class="light-version-logo"
                 />
                 <!-- Dark version logo (logo must be White)-->
                 <img
-                  src="image/logo-main-black.png"
+                  src="{{ url_for('static', filename='image/logo-main-black.png') }}"
                   alt=""
                   class="dark-version-logo"
                 />
@@ -159,7 +159,7 @@
             </div>
             <div class="col-8">
               <div class="banner-fluid-image pt-lg-9">
-                <img src="image/png/gpt3.png" alt="" class="w-100" />
+                <img src="{{ url_for('static', filename='image/png/gpt3.png') }}" alt="" class="w-100" />
               </div>
             </div>
           </div>
@@ -183,7 +183,7 @@
               <div class="team-card">
                 <div class="card-image">
                   <img
-                    src="image/inner/team-image-1.png"
+                    src="{{ url_for('static', filename='image/inner/team-image-1.png') }}"
                     alt=""
                     class="w-100"
                   />
@@ -200,7 +200,7 @@
               <div class="team-card">
                 <div class="card-image">
                   <img
-                    src="image/inner/team-image-2.png"
+                    src="{{ url_for('static', filename='image/inner/team-image-2.png') }}"
                     alt=""
                     class="w-100"
                   />

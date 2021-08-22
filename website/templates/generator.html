@@ -38,9 +38,9 @@
           <!-- Brand Logo-->
           <div class="brand-logo"><a href="/">
               <!-- light version logo (logo must be black)-->
-              <img src="image/logo-main-black.png" alt="" class="light-version-logo ">
+              <img src="{{ url_for('static', filename='image/logo-main-black.png') }}" alt="" class="light-version-logo ">
               <!-- Dark version logo (logo must be White)-->
-              <img src="image/logo-main-black.png" alt="" class="dark-version-logo">
+              <img src="{{ url_for('static', filename='image/logo-main-black.png') }}" alt="" class="dark-version-logo">
             </a></div>
           <div class="collapse navbar-collapse" id="mobile-menu">
             <div class="navbar-nav-wrapper">
@@ -86,7 +86,7 @@
             <div class="px-md-5 text-center">
               <h2 class="title gr-text-2 mb-8 mb-lg-10">Sanatkar</h2>
               <p class="gr-text-7 mb-0 mb-lg-13">Eser oluşturun</p>
-              <form action="#" id="artinput">
+              <form action="#" id="artinput" method="POST">
                 <div class="col-md-12">
                   <div class="form-group mb-7">
                     <label for="artform" class="gr-text-11 font-weight-bold text-blackish-blue">Sanat Dalını Seçiniz</label>
@@ -121,7 +121,7 @@
                   </div>
                   <div class="form-group mb-7">
                     <label for="startinginput" class="gr-text-11 font-weight-bold text-blackish-blue">Başlangıç Cümlesi</label>
-                    <input class="form-control gr-text-11 border" type="text" id="startinginput" placeholder="Örn. Bu bizim son muazzam dansımız">
+                    <input class="form-control gr-text-11 border" type="text" id="startinginput" name="startinginput" placeholder="Örn. Bu bizim son muazzam dansımız">
                   </div>
                   <div class="form-group mb-7">
                     <label for="outputlimit" class="gr-text-11 font-weight-bold text-blackish-blue">Karakter Uzunluğunu Seçiniz</label>
@@ -135,7 +135,7 @@
                     </select>
                   </div>
                     <div class="form-group button-block mt-3 ">
-                      <button class="form-btn btn btn-primary w-100">Oluştur</button>
+                      <button class="form-btn btn btn-primary w-100" type="submit">Oluştur</button>
                   </div>
                 </div>
               </form>

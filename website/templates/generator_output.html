@@ -38,9 +38,9 @@
           <!-- Brand Logo-->
           <div class="brand-logo"><a href="/">
               <!-- light version logo (logo must be black)-->
-              <img src="image/logo-main-black.png" alt="" class="light-version-logo ">
+              <img src="{{ url_for('static', filename='image/logo-main-black.png') }}" alt="" class="light-version-logo ">
               <!-- Dark version logo (logo must be White)-->
-              <img src="image/logo-main-black.png" alt="" class="dark-version-logo">
+              <img src="{{ url_for('static', filename='image/logo-main-black.png') }}" alt="" class="dark-version-logo">
             </a></div>
           <div class="collapse navbar-collapse" id="mobile-menu">
             <div class="navbar-nav-wrapper">
@@ -92,12 +92,15 @@
               <p class="gr-text-8 mb-9">Parametreleriniz doğrultusunda oluşan eseriniz:</p>
               <ul class="w-100 list-unstyled text-left">
                 <li class="gr-text-8 mb-3">Arşiv No: <span id="archiveno">8</span></li>
-                <li class="gr-text-8 text-dark mb-3">Seçilen Sanat Dalı: <span id="chosenart">Şarkı</span></li>
-                <li class="gr-text-8 text-dark mb-3">Seçilen Sanat Alt Dalı: <span id="chosensubart">Rap</span></li>
-                <li class="gr-text-8 text-dark mb-3">Başlangıç Metni: <span id="startingsentence">Arda baba sen çok yaşa!</span></li>
-                <li class="gr-text-8 text-dark mb-5">Çıktı Uzunluğu: <span id="outputlength">189</span> Karakter</li>
-                <li class="gr-text-6 text-dark mb-8 text-center">Çıktı:</br><span id="output">Arda baba sen çok yaşa!
-                  Canım feda olsun sana.
+                <li class="gr-text-8 text-dark mb-3">Seçilen Sanat Dalı: <span id="chosenart">{{art_form}}</span></li>
+                <li class="gr-text-8 text-dark mb-3">Seçilen Sanat Alt Dalı: <span id="chosensubart">{{sub_art_form}}</span></li>
+                <li class="gr-text-8 text-dark mb-3">Başlangıç Metni: <span id="startingsentence">{{seed_input}}</span></li>
+                <li class="gr-text-8 text-dark mb-5">Çıktı Uzunluğu: <span id="outputlength">{{length_input}}</span> Karakter</li>
+                <li class="gr-text-6 text-dark mb-8 text-center">Çıktı:</br><span id="output"> 
+                {% for element in output %}
+                  {{element}}
+                  <br>
+                {% endfor %} 
                 </span></li>
               </ul>
               <div class="header-btn  ml-auto ml-lg-5 mr-6 mr-lg-0 d-xs-block">
