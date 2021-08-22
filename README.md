@@ -18,7 +18,7 @@ sanatkar.ai üç farklı sanat dalının sekiz farklı alt dalında doğal dil �
   - Cumhuriyet Dönemi Saf Şiir Veri Seti --> 9007 satır, 312 kb.
   - Garip Şiiri Veri Seti --> 3712 satır, 116 kb.
 
-3 - Tiyator Tiradı Veri Setleri
+3 - Tiyatro Tiradı Veri Setleri
   - Erkek Karakterlerin Tiradları Veri Seti --> 112 kb.
   - Kadın Karakterlerin Tiradları Veri Seti --> 96 kb.
 

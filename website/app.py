@@ -1,4 +1,3 @@
-from operator import length_hint
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras.layers.experimental import preprocessing
