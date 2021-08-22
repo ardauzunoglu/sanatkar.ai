@@ -52,7 +52,7 @@
                   <a class="nav-link" href="/contact" role="button" aria-expanded="false">İletişim</a>
                 </li>
                 <li class="nav-item">
-                  <a class="font-weight-bold nav-link" href="/contact" role="button" aria-expanded="false"><ins>Arşiv</ins></a>
+                  <a class="font-weight-bold nav-link" href="/archive" role="button" aria-expanded="false"><ins>Arşiv</ins></a>
                 </li>
                 <li class="nav-item d-lg-none">
                   <a class="font-weight-bold nav-link" href="/generator" role="button" aria-expanded="false"><ins>Bir Eser Oluşturun!</ins></a>
@@ -91,18 +91,11 @@
               <h2 class="title gr-text-2 mb-6">Arşiv</h2>
               <p class="gr-text-8 mb-8">Yapay zekamızın oluşturduğu eserler</p>
               <div class="row flex-lg-fill">
-                <div class="col-lg-2 mr-2 mb-2 col-12 card"><a class="d-block w-100 h-100" href="/generator_output">
-                  Arşiv Eseri <span id="archiveno">1</span></a>
-                </div>
-                <div class="col-lg-2 mr-2 mb-2 col-12 card"><a class="d-block w-100 h-100" href="/javascript:(void)">
-                  Arşiv Eseri <span id="archiveno">2</span></a>
-                </div>
-                <div class="col-lg-2 mr-2 mb-2 col-12 card"><a class="d-block w-100 h-100" href="/generator_output">
-                  Arşiv Eseri <span id="archiveno">3</span></a>
-                </div>
-                <div class="col-lg-2 mr-2 mb-2 col-12 card"><a class="d-block w-100 h-100" href="/javascript:(void)">
-                  Arşiv Eseri <span id="archiveno">4</span></a>
-                </div>
+                {% for archive_element in archive %}
+                  <div class="col-lg-2 mr-2 mb-2 col-12 card"><a class="d-block w-100 h-100" href="/archive/{{archive_element.id}}">
+                    Arşiv Eseri <span id="archiveno">1</span></a>
+                  </div>
+                {% endfor %}
               </div>
           </div>
         </div>

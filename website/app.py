@@ -1,3 +1,4 @@
+from operator import length_hint
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras.layers.experimental import preprocessing
@@ -6,7 +7,7 @@ from flask.helpers import url_for
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__, static_folder='templates/static')
-app.config["SQLALCHEMY_DATABASE_URI"] = ""
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////Users/ardau/Documents/GitHub/sanatkar.ai/website/archive.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
@@ -15,6 +16,8 @@ class Archive(db.Model):
     generated_text = db.Column(db.String(500))
     art_branch = db.Column(db.String(10))
     genre = db.Column(db.String(30))
+    seed_input = db.Column(db.String(35))
+    length_input = db.Column(db.String(3))
 
 def generate_text(model_choice, seed, length):
 
@@ -79,8 +82,12 @@ def particular_archive_element(id):
     generated_text = archived_generation.generated_text
     art_branch = archived_generation.art_branch
     genre = archived_generation.genre
+    seed_input = archived_generation.seed_input
+    length_input = archived_generation.length_input
 
-    return render_template("generator_output.html", generated_text=generated_text, art_branch=art_branch, genre=genre)
+    output = str(generated_text).replace("_", "").replace(")", "").replace("(", "").replace("'", "").replace('"',"").split("\\n")[:-1]
+
+    return render_template("generator_output.html", output=output, art_branch=art_branch, genre=genre, seed_input=seed_input, length_input=length_input)
 
 @app.route("/contact")
 def about_us():
@@ -93,7 +100,7 @@ def generate_text_page():
 @app.route("/generator", methods=["POST"])
 def generate_text_page_post():
     art_form = request.form["mainartform"]
-
+    
     art_form_dict = {
         "sarki":"songartform",
         "siir":"poetartform",
@@ -106,12 +113,17 @@ def generate_text_page_post():
     seed_input = request.form["startinginput"]
     length_input = request.form["outputlimit"]
 
-    output = str(generate_text(generator_type, seed_input, length_input)).replace("_", "").replace(")", "").replace("(", "").replace("'", "").replace('"',"").split("\\n")[:-1]
+    output = str(generate_text(generator_type, seed_input, length_input))
 
-    return render_template("generator_output.html", output = output, art_form = art_form, generator_type = generator_type, seed_input = seed_input, length_input = length_input)
+    new_archive = Archive(generated_text = output, art_branch = art_form, genre = generator_type, seed_input = seed_input, length_input = length_input)
+    db.session.add(new_archive)
+    db.session.commit()
+
+    return redirect(url_for("particular_archive_element", id=new_archive.id))
 
 @app.route("/generator_output")
 def generator_output():
+    output = str(generate_text(generator_type, seed_input, length_input)).replace("_", "").replace(")", "").replace("(", "").replace("'", "").replace('"',"").split("\\n")[:-1]
     return render_template("generator_output.html", output = output, art_form = art_form, sub_art_form = sub_art_form, seed_input = seed_input, length_input = length_input)
 
 if __name__ == "__main__":
