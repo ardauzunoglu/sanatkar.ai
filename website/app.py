@@ -79,15 +79,18 @@ def archive():
 @app.route("/archive/<int:id>")
 def particular_archive_element(id):
     archived_generation = Archive.query.filter_by(id = id).first()
+
+    id = archived_generation.id
     generated_text = archived_generation.generated_text
     art_branch = archived_generation.art_branch
     genre = archived_generation.genre
     seed_input = archived_generation.seed_input
     length_input = archived_generation.length_input
 
-    output = str(generated_text).replace("_", "").replace(")", "").replace("(", "").replace("'", "").replace('"',"").split("\\n")[:-1]
+    output = str(generated_text).replace("_", "").replace(")", "").replace("(", "").replace("'", "").replace('"',"").split("\\n")
+    output = list(filter(None, output))[:-1]
 
-    return render_template("generator_output.html", output=output, art_branch=art_branch, genre=genre, seed_input=seed_input, length_input=length_input)
+    return render_template("generator_output.html", id = id, output=output, art_branch=art_branch, genre=genre, seed_input=seed_input, length_input=length_input)
 
 @app.route("/contact")
 def about_us():
@@ -115,16 +118,31 @@ def generate_text_page_post():
 
     output = str(generate_text(generator_type, seed_input, length_input))
 
-    new_archive = Archive(generated_text = output, art_branch = art_form, genre = generator_type, seed_input = seed_input, length_input = length_input)
+    art_branch_corrector = {
+        "sarki":"Şarkı",
+        "siir":"Şiir",
+        "tirad":"Tirad"
+    }
+
+    genre_corrector = {
+        "pop":"Pop",
+        "rap":"Rap",
+        "rock":"Rock",
+        "cumhuriyet":"Cumhuriyet Dönemi Saf Şiir",
+        "garip":"Garip Şiiri",
+        "milliedebiyat":"Milli Edebiyat",
+        "kadın":"Kadın Karakter",
+        "erkek":"Erkek Karakter"
+    }
+
+    art_branch = art_branch_corrector[art_form]
+    genre = genre_corrector[generator_type]
+
+    new_archive = Archive(generated_text = output, art_branch = art_branch, genre = genre, seed_input = seed_input, length_input = length_input)
     db.session.add(new_archive)
     db.session.commit()
 
     return redirect(url_for("particular_archive_element", id=new_archive.id))
-
-@app.route("/generator_output")
-def generator_output():
-    output = str(generate_text(generator_type, seed_input, length_input)).replace("_", "").replace(")", "").replace("(", "").replace("'", "").replace('"',"").split("\\n")[:-1]
-    return render_template("generator_output.html", output = output, art_form = art_form, sub_art_form = sub_art_form, seed_input = seed_input, length_input = length_input)
 
 if __name__ == "__main__":
     db.create_all()

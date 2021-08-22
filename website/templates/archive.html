@@ -89,13 +89,17 @@
           <div class="col-xl-8 col-lg-9">
             <div class="px-md-15 text-center">
               <h2 class="title gr-text-2 mb-6">Arşiv</h2>
-              <p class="gr-text-8 mb-8">Yapay zekamızın oluşturduğu eserler</p>
+              <p class="gr-text-8 mb-8">Yapay zekamızın oluşturduğu eserler: </p>
               <div class="row flex-lg-fill">
+              {% if archive == [] %}
+                <p class="gr-text-8 mb-8">Eser bulunamamıştır.</p>
+              {% else %}
                 {% for archive_element in archive %}
                   <div class="col-lg-2 mr-2 mb-2 col-12 card"><a class="d-block w-100 h-100" href="/archive/{{archive_element.id}}">
-                    Arşiv Eseri <span id="archiveno">1</span></a>
+                    Arşiv Eseri <span id="archiveno">{{archive_element.id}}</span></a>
                   </div>
                 {% endfor %}
+              {% endif %}
               </div>
           </div>
         </div>
