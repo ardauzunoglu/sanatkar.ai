@@ -35,3 +35,7 @@ sanatkar.ai üç farklı sanat dalının sekiz farklı alt dalında doğal dil �
 ##### Tiyatro Tiradı Veri Setlerinin Oluşturulması
 
 Tiyatro tiradı veri setleri [Ankara Akademi Sanat](http://www.ankaraakademisanat.com/erkek-tiradlari)'ın açık arşivindeki tiradların manuel olarak aynı metin dosyasına taşınmasıyla elde edilmiştir. 
+
+# Contributors
+Yapay zekâ ve backend geliştiricisi: [Arda Uzunoğlu](https://github.com/ardauzunoglu)
+Frontend geliştiricisi: [Ege Dinnen](https://github.com/egedinnen)
