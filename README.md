@@ -54,6 +54,10 @@ Tiyatro tiradı veri setleri [Ankara Akademi Sanat](http://www.ankaraakademisana
 > Flask==2.0.1 <br>
 > Flask-SQLAlchemy==2.5.1 <br>
 
+# Web Sitesi
+
+Doğal dil üretimi gerçekleştiren modellerin kullanıcı kullanımına açıldığı web sitesi backend'de Python yazılım dilinin Flask kütüphanesini; frontend'de HTML, CSS işaretleme dilleri ile JavaScript'in Jquery kütüphanesini kullanmaktadır.
+
 # Contributors
 - Yapay zekâ ve backend geliştiricisi: [Arda Uzunoğlu](https://github.com/ardauzunoglu)
 - Frontend geliştiricisi: [Ege Dinnen](https://github.com/egedinnen)
