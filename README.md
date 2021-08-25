@@ -36,6 +36,24 @@ sanatkar.ai üç farklı sanat dalının sekiz farklı alt dalında doğal dil �
 
 Tiyatro tiradı veri setleri [Ankara Akademi Sanat](http://www.ankaraakademisanat.com/erkek-tiradlari)'ın açık arşivindeki tiradların manuel olarak aynı metin dosyasına taşınmasıyla elde edilmiştir. 
 
+# Gereklilikler 
+
+'pip install -r requirements_for_model_creation.txt' ve 'pip install -r requirements_for_website.txt' komutları ile yerel cihazınıza gerekli kütüphanelerin kurulumunu gerçekleştirebilirsiniz.
+
+### Model Oluşturmak İçin Gereklilikler
+
+> tensorflow==2.6.0 <br>
+> nltk==3.6.2 <br>
+> urllib3==1.26.6 <br>
+> numpy==1.21.2 <br>
+
+### Web Sitesi İçin Gereklilikler
+
+> tensorflow==2.6.0 <br>
+> numpy==1.21.2 <br>
+> Flask==2.0.1 <br>
+> Flask-SQLAlchemy==2.5.1 <br>
+
 # Contributors
 - Yapay zekâ ve backend geliştiricisi: [Arda Uzunoğlu](https://github.com/ardauzunoglu)
 - Frontend geliştiricisi: [Ege Dinnen](https://github.com/egedinnen)
