@@ -7160,4 +7160,37 @@ button:focus {
   }
 }
 
-/*# sourceMappingURL=maps/main.css.map */
+.archive-card {
+  border: none;
+  border-radius: 10px;
+  color: #0E1019;
+  font-family: "Circular Std", sans-serif;
+  font-weight: bold;
+}
+
+.archive-card:hover{
+  box-shadow: 0 34px 33px -23px rgb(22 28 45 / 13%);
+  color: #2bd67b;
+}
+
+.archive-detail {
+  font-size: small;
+
+  font-weight:normal ;
+}
+
+.archive-detail span {
+  font-weight: bolder !important;
+}
+
+.fa-github{
+  transition: ease-in-out 0.2s;
+}
+
+.fa-github:hover{
+  color: #2bd67b;
+}
+
+.shadow-:hover {
+  box-shadow: 0 34px 33px -23px rgb(22 28 45 / 13%);
+}

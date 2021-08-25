@@ -38,9 +38,9 @@
           <!-- Brand Logo-->
           <div class="brand-logo"><a href="/">
               <!-- light version logo (logo must be black)-->
-              <img src="{{ url_for('static', filename='image/logo-main-black.png') }}" alt="" class="light-version-logo ">
+              <img src="{{ url_for('static', filename='image/logo-main-black.png') }}" alt="" class="light-version-logo w-100">
               <!-- Dark version logo (logo must be White)-->
-              <img src="{{ url_for('static', filename='image/logo-main-white.png') }}" alt="" class="dark-version-logo">
+              <img src="{{ url_for('static', filename='image/logo-main-white.png') }}" alt="" class="dark-version-logo w-100">
             </a></div>
           <div class="collapse navbar-collapse" id="mobile-menu">
             <div class="navbar-nav-wrapper">
@@ -89,7 +89,7 @@
           <div class="col-lg-6 col-md-9 order-lg-2">
             <div class="hero-img" data-aos="fade-left" data-aos-duration="500" data-aos-once="true">
               <div class="hero-video-thumb position-relative gr-z-index-1">
-                <img src="{{ url_for('static', filename='image/png/wallpaper.jpg') }}" alt="" class="w-100 rounded-8">
+                <img src="{{ url_for('static', filename='image/png/wallpaper.jpg') }}" alt="" class="w-100 rounded-8 shadow-2">
                 <!--<a class="video-play-trigger gr-abs-center bg-white circle-xl gr-flex-all-center gr-abs-hover-y focus-reset" data-fancybox="" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" tabindex="-1"><i class="icon icon-triangle-right-17-2"></i></a> --> 
                 <div class="abs-shape gr-abs-tr-custom gr-z-index-n1">
                   <img src="{{ url_for('static', filename='image/l4/png/l4-hero-shape.png') }}" alt="" class="w-100" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="800" data-aos-once="true">
@@ -228,7 +228,7 @@
                 <img src="{{ url_for('static', filename='image/arda.png') }}" alt="" class="w-100">
               </div>
               <div class="card-text pt-9">
-                <h3 class="gr-text-7 mb-2">Arda Uzunoğlu</h3>
+                <h3 class="gr-text-7 mb-2">Arda Uzunoğlu <a href="https://github.com/ardauzunoglu" target=”_blank” rel="noreferrer noopener"><i class="fab fa-github"></i></a></h3>
                 <p class="gr-text-9 mb-0 line-height-1">Yapay Zeka Geliştiricisi</p>
               </div>
             </div>
@@ -239,7 +239,7 @@
                 <img src="{{ url_for('static', filename='image/ege.png') }}" alt="" class="w-100">
               </div>
               <div class="card-text pt-9">
-                <h3 class="gr-text-7 mb-2">Ege Dinnen</h3>
+                <h3 class="gr-text-7 mb-2">Ege Dinnen <a href="https://github.com/egedinnen" target=”_blank” rel="noreferrer noopener"><i class="fab fa-github"></i></a></h3>
                 <p class="gr-text-9 mb-0 line-height-1">Önyüz Geliştiricisi</p>
               </div>
             </div>
@@ -252,29 +252,23 @@
     <div class="testimonial-section pt-9 pt-lg-20 pb-lg-25 bg-default-5">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-md-6 mb-13 mb-lg-0" data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
-            <div class="testimonial-card">
-              <div class="quote-icon pb-14">
-                <img src="{{ url_for('static', filename='image/l4/png/quote.png') }}" alt="">
+          <div class="col-md-6 mb-13 mb-lg-0 text-center" data-aos="fade-right" data-aos-duration="700" data-aos-once="true">
+            <h2 class="title gr-text-2 mb-6">Son Eserler</h2>
+              <p class="gr-text-8 mb-8">Yapay zekamızın oluşturduğu son eserler: </p>
+              <div class="row flex-lg-fill">
+                {% if archive == [] %}
+                <p class="gr-text-8 mb-8">Eser bulunamamıştır.</p>
+                {% else %}
+                {% for archive_element in archive %}
+                <div class="col-lg-3 mb-7 col-12 btn-11">
+                  <a class="d-block w-100 h-100 card archive-card" display href="/archive/{{archive_element.id}}">
+                    Arşiv Eseri: <span id="archiveno">{{archive_element.id}}</span>
+                    <p class="archive-detail">Seçilen Sanat Dalı: <span>Şarkı</span><br>Seçilen Sanat Alt Dalı: <span>Rock</span><br>Başlangıç Metni: <span>Arda dedi terkederken beni</span></p>  
+                  </a>
+                </div>
+                {% endfor %}
+                {% endif %}
               </div>
-              <p class="review-text gr-text-6 font-weight-bold gr-text-color pr-xl-11 mb-0">“Muhteşem ötesi adeta bilim kurgudan fırlama!”</p>
-              <div class="customer-identity d-flex pt-8">
-                <h3 class="name gr-text-9 font-weight-bold mb-0">Ahmet Çilingir</h3>
-                <p class="rank gr-text-9 pl-5 gr-text-color-opacity mb-0">Web Developer</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 mb-13 mb-lg-0" data-aos="fade-right" data-aos-duration="1100" data-aos-once="true" data-aos-delay="400">
-            <div class="testimonial-card">
-              <div class="quote-icon pb-14">
-                <img src="{{ url_for('static', filename='image/l4/png/quote.png') }}" alt="">
-              </div>
-              <p class="review-text gr-text-6 font-weight-bold gr-text-color pr-xl-11 mb-0">“Mehmet Akif Ersoy ile maNga aynı zihinde buluşmuş!”</p>
-              <div class="customer-identity d-flex pt-8">
-                <h3 class="name gr-text-9 font-weight-bold mb-0">Ramaza Koyan</h3>
-                <p class="rank gr-text-9 pl-5 gr-text-color-opacity mb-0">Digital Marketer</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>

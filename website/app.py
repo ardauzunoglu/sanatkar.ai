@@ -6,7 +6,7 @@ from flask.helpers import url_for
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__, static_folder='templates/static')
-app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////Users/ardau/Documents/GitHub/sanatkar.ai/website/archive.db"
+app.config["SQLALCHEMY_DATABASE_URI"] = "sqlite:////Users/EGE/Desktop/GitHub Repositories/sanatkar.ai/archive.db"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
