@@ -101,14 +101,9 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
 
 # Galeri - Örnek Çıktılar
 
-![Örnek Çıktı 1](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-1.png)
-![Örnek Çıktı 2](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-3.png)
-![Örnek Çıktı 3](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-2.png)
-![Örnek Çıktı 4](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-4.png)
-![Örnek Çıktı 5](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-5.png)
-![Örnek Çıktı 6](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-6.png)
-![Örnek Çıktı 7](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-7.png)
-
+<img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-1.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-3.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-2.png" width="250" height="250"> 
+<img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-4.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-5.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-6.png" width="250" height="250">
+<img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-7.png" width="250" height="250">
 # Geliştirmeye Yönelik Öneriler
 
 - Yeni Modellerin Geliştirilmesine Dair Öneriler
@@ -125,6 +120,7 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
   - Modellerin açık döngü çıktısını stabilize etmek için ***curriculum learning*** uygulanabilir.
 
 - Web Sitesine Dair Öneriler 
+  - Modelin veri setine ne derece yakınlıkta çıktı vereceğini belirleyen temperature parametresi kullanıcıdan girdi olarak alınabilir.
   - Modellerin ürettiği çıktıların kaydedildiği arşiv sayfasına çeşitli filtreleme özellikleri (örneğin sanat dalı, sanat alt dalı, çıktı uzunluğu) getirilebilir.
   - Kullanıcıların beğenisi göz önünde bulundurulacak şekilde çıktıları *beğenme* ve *beğenmeme* opsiyonları getirilebilir ve bu opsiyonlar filtreleme özellikleri arasında yer alabilir. 
 
