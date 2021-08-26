@@ -97,10 +97,14 @@
                 <li class="gr-text-8 text-dark mb-3">Başlangıç Metni: <span id="startingsentence">{{seed_input}}</span></li>
                 <li class="gr-text-8 text-dark mb-5">Çıktı Uzunluğu: <span id="outputlength">{{length_input}}</span> Karakter</li>
                 <li class="gr-text-6 text-dark mb-8 text-center">Çıktı:</br><span id="output"> 
-                {% for element in output %}
-                  {{element}}
-                  <br>
-                {% endfor %} 
+                {% if output[0] %}
+                  {% for element in output %}
+                    {{element}}
+                    <br>
+                  {% endfor %}
+                {% else %}
+                  <p> Bir hata oluştu. </p>
+                {% endif %}
                 </span></li>
               </ul>
               <div class="header-btn  ml-auto ml-lg-5 mr-6 mr-lg-0 d-xs-block">
