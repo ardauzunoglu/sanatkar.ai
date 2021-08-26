@@ -8,7 +8,7 @@ sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir
 [Kullanılan Veri Setleri](#kullanılan-veri-setleri) <br>
 [Gereklilikler](#gereklilikler) <br>
 [Web Sitesi](#web-sitesi) <br>
-[Geliştirmeye Yönelik Öneriler](#gelistirmeye-yönelik-öneriler) <br>
+[Geliştirmeye Yönelik Öneriler](#geliştirmeye-yönelik-öneriler) <br>
 [Katkıda Bulunanlar](#katkıda-bulunanlar) <br>
 
 # RNN Modelleri
@@ -118,6 +118,20 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
   - Modellerin ürettiği çıktıların kaydedildiği arşiv sayfasına çeşitli filtreleme özellikleri (örneğin sanat dalı, sanat alt dalı, çıktı uzunluğu) getirilebilir.
   - Kullanıcıların beğenisi göz önünde bulundurulacak şekilde çıktıları *beğenme* ve *beğenmeme* opsiyonları getirilebilir ve bu opsiyonlar filtreleme özellikleri arasında yer alabilir. 
 
-# Katkıda Bulunanlar
+# Katkıda Bulunmak
+
+Çalışmayı denerken karşılaştığınız bir sorunu issue açarak anlatabilir, yavaş çalışacağını düşündüğünüz bir kod parçacığını optimize edip pull request atabilir, çalışmayı iyileştireceğini ve ileri taşıyacağını düşündüğünüz değişikliklerde bulunabilirsiniz. Teşekkürler :blush: 
+
+### Katkıda Bulunanlar
 - Yapay zekâ ve backend geliştiricisi: [Arda Uzunoğlu](https://github.com/ardauzunoglu)
 - Frontend geliştiricisi: [Ege Dinnen](https://github.com/egedinnen)
+
+### Katkıda Bulunma Rehberi
+
+sanatkar.ai repository sayfasında 'issue' sekmesinde yeni bir issue oluşturup sanatkar.ai'ı geliştirmemize katkıda bulunabilirsiniz!
+
+![new-issue](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/new-issue.png)
+
+sanatkar.ai repositorysini forkladıktan sonra bulduğunuz bir hata çözümünü, kaydettiğiniz bir ilerlemeyi, yaptığınız bir iyileştirmeyi paylaşmak için repository sayfasında pull request sekmesinden pull request oluşturabilirsiniz. 
+
+![new-pull-request](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/new-pull-request.png)
