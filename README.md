@@ -1,10 +1,43 @@
-![sanatkar.ai](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/sanatkar.ai.png)
+![sanatkar.ai](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/sanatkar.ai.png)
 
-sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir ve tiyatro) doğal dil üretmek amacıyla karakter tabanlı tahmin işlemleri gerçekleştiren **RNN** modelleri kullanan bir Türkçe doğal dil işleme uygulamasıdır. 
+sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir ve tiyatro) doğal dil üretmek amacıyla karakter tabanlı tahmin işlemleri gerçekleştiren çok katmanlı **LSTM** bazlı **RNN** modelleri kullanan bir Türkçe doğal dil işleme uygulamasıdır. 
 
-# Kullanılan Veri Setleri
+# README.md İçeriği
 
-sanatkar.ai üç farklı sanat dalının sekiz farklı alt dalında doğal dil üretmektedir. Her bir alt dala ait **kapsamlı *ana* veri seti** bulunmaktayken ana veri setini oluşturan ***tekil* veri setleri** de mevcuttur. Veri setlerine ulaşmak için [tıklayabilirsiniz](https://github.com/ardauzunoglu/sanatkar.ai/tree/main/data-sets).
+[RNN Modelleri](#rnn-modelleri) <br>
+[Kullanılan Veri Setleri](#kullanılan-veri-setleri) <br>
+[Gereklilikler](#gereklilikler) <br>
+[Web Sitesi](#web-sitesi) <br>
+[Geliştirmeye Yönelik Öneriler](#geliştirmeye-yönelik-öneriler) <br>
+[Katkıda Bulunanlar](#katkıda-bulunanlar) <br>
+
+# RNN Modelleri
+
+Doğal dil üretimi gerçekleştiren çok katmanlı LSTM bazlı RNN modelleri çıktıyı oluştururken 'Bir karakter veya bir karakter dizisi verildiğinde, onları takip edecek en olası karakter nedir?' sorusuna yanıt bulmak amacıyla karakter temelli tahmin işlemleri gerçekleştirmektedir. 
+
+![char-based-prediction](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/sanatkar.ai-char-based-prediction.png)
+
+### Modellerin Geliştirilmesi[*](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/creating_text_generators.ipynb)
+
+Detaylı bilgi için [creating_text_generators.ipynb](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/creating_text_generators.ipynb) dosyasına göz atabilirsiniz.
+
+### Modellerin Değerlendirilmesi
+
+| Model | Eğitim Veri Seti | Epoch | Doğruluk Oranı | Loss Değeri |
+|-------|------------------|-------|----------------|-------------|
+| Kadın Karakter Tirad | [kadin_tirad_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/tirad_veri_setleri/kadin_tirad_veri_setleri/kadin_tirad_veri_seti.txt) | 125 | 0.9846 | 0.0478 |
+| Garip Şiiri | [garip-siiri-veri-seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/siir_veri_setleri/garip_siiri_veri_setleri/garip-siiri-veri-seti.txt) | 75 | 0.9839 | 0.0572 |
+| Erkek Karakter Tirad | [erkek_tirad_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/tirad_veri_setleri/erkek_tirad_veri_setleri/erkek_tirad_veri_seti.txt) | 125 | 0.9834 | 0.0531 |
+| Cumhuriyet Dönemi Saf Şiir | [cumhuriyet-donemi-saf-siir-veri-seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/siir_veri_setleri/cumhuriyet_donemi_saf_siir_veri_setleri/cumhuriyet-donemi-saf-siir-veri-seti.txt) | 100 | 0.9800 | 0.0591 | 
+| Milli Edebiyat | [milli_edebiyat_veri-seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/siir_veri_setleri/milli_edebiyat_veri_setleri/milli_edebiyat_veri-seti.txt) | 60 | 0.9780 | 0.0732 |
+| Rock | [rock_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/sarki_veri_setleri/rock_veri_setleri/rock_veri_seti.txt) | 30 | 0.9666 | 0.1403 |
+| Pop | [pop_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/sarki_veri_setleri/pop_veri_setleri/pop_veri_seti.txt) | 30 | 0.8330 | 0.5169 |
+| Rap | [rap_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/sarki_veri_setleri/rap_veri_setleri/rap_veri_seti.txt) | 15 | 0.5801 | 1.3477 |
+
+
+# Kullanılan Veri Setleri[*](https://github.com/ardauzunoglu/sanatkar.ai/tree/main/data-sets)
+
+sanatkar.ai üç farklı sanat dalının sekiz farklı alt dalında doğal dil üretmektedir. Her bir alt dala ait **kapsamlı *ana* veri seti** bulunmaktayken ana veri setini oluşturan ***tekil* veri setleri** de mevcuttur.
 
 ### Veri Seti Büyüklükleri 
 
@@ -40,21 +73,21 @@ Tiyatro tiradı veri setleri [Ankara Akademi Sanat](http://www.ankaraakademisana
 
 'pip install -r requirements_for_model_creation.txt' ve 'pip install -r requirements_for_website.txt' komutları ile yerel cihazınıza gerekli kütüphanelerin kurulumunu gerçekleştirebilirsiniz.
 
-### Model Oluşturmak İçin Gereklilikler
+### Model Oluşturmak İçin Gereklilikler[*](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/requirements_for_model_creation.txt)
 
 > tensorflow==2.6.0 <br>
 > nltk==3.6.2 <br>
 > urllib3==1.26.6 <br>
 > numpy==1.21.2 <br>
 
-### Web Sitesi İçin Gereklilikler
+### Web Sitesi İçin Gereklilikler[*](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/requirements_for_website.txt)
 
 > tensorflow==2.6.0 <br>
 > numpy==1.21.2 <br>
 > Flask==2.0.1 <br>
 > Flask-SQLAlchemy==2.5.1 <br>
 
-# Web Sitesi
+# Web Sitesi[*](https://github.com/ardauzunoglu/sanatkar.ai/tree/main/website)
 
 Doğal dil üretimi gerçekleştiren modellerin kullanıcı kullanımına açıldığı web sitesi backend'de Python yazılım dilinin Flask kütüphanesini; frontend'de HTML, CSS işaretleme dilleri ile JavaScript'in Jquery kütüphanesini kullanmaktadır. 
 
@@ -66,6 +99,39 @@ Bir karşılama sayfası ve dört ek sayfadan oluşan web sitesinin olabildiğin
 
 RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini gerçekleştiren backend bu işlemler için TensorFlow ve SQLAlchemy kütüphanelerinden faydalanmaktadır.
 
-# Contributors
+# Geliştirmeye Yönelik Öneriler
+
+- Yeni Modellerin Geliştirilmesine Dair Öneriler
+  - Oluşturulacak yeni veri setleri ile bir tiyatro senaryosu içerisinde yer alan kurgu ve diyalog gibi elementlerin üretimini sağlayan yeni modeller geliştirilebilir. Geliştirilen bu modeller tirad üretimi gerçekleştiren model ile birlikte kullanılarak bütüncül tiyatro oyunları oluşturulabilir.
+
+- Veri Setlerine Dair Öneriler
+  - Şarkı sözü veri setlerinde kullanılan API'dan dolayı oluşan, şarkı sözü dışında kalan açıklama metinleri (örneğin Nakarat, Giriş, Chorus bilgileri) temizlenebilir.
+  - Şarkı sözü veri setlerinde Türkçe hariç dillerin (Pop ve Rock veri setlerinde ağırlıklı olarak İngilizce; Rap veri setinde ağırlıklı olarak Almanca ve İngilizce) kullanıldığı dizeler temizlenebilir.
+  - Şiir veri setlerinde nadiren de olsa karşılaşılan Türkçe karakter bozuklukları düzeltilebilir.
+  - Tirad veri setlerinde sıklıkla kullanılan noktalama işaretleri arasında var olan hatalar (örneğin noktalama işaretinden önce boşluk bırakılması) düzeltilebilir.
+
+- RNN Modellerine Dair Öneriler
+  - Modellerin her biri özelleştirilmiş eğitimden geçirilebilir. Bu aşamada kullanılan eğitim, gerçekleşen kötü tahminlerin modellere geri gitmesini engellemekte dolayısıyla modellerin hatalarından öğrenmesine engel olmaktadır. 
+  - Modellerin açık döngü çıktısını stabilize etmek için ***curriculum learning*** uygulanabilir.
+
+- Web Sitesine Dair Öneriler 
+  - Modellerin ürettiği çıktıların kaydedildiği arşiv sayfasına çeşitli filtreleme özellikleri (örneğin sanat dalı, sanat alt dalı, çıktı uzunluğu) getirilebilir.
+  - Kullanıcıların beğenisi göz önünde bulundurulacak şekilde çıktıları *beğenme* ve *beğenmeme* opsiyonları getirilebilir ve bu opsiyonlar filtreleme özellikleri arasında yer alabilir. 
+
+# Katkıda Bulunmak
+
+Çalışmayı denerken karşılaştığınız bir sorunu issue açarak anlatabilir, yavaş çalışacağını düşündüğünüz bir kod parçacığını optimize edip pull request atabilir, çalışmayı iyileştireceğini ve ileri taşıyacağını düşündüğünüz değişikliklerde bulunabilirsiniz. Teşekkürler :blush: 
+
+### Katkıda Bulunanlar
 - Yapay zekâ ve backend geliştiricisi: [Arda Uzunoğlu](https://github.com/ardauzunoglu)
 - Frontend geliştiricisi: [Ege Dinnen](https://github.com/egedinnen)
+
+### Katkıda Bulunma Rehberi
+
+sanatkar.ai repository sayfasında 'issue' sekmesinde yeni bir issue oluşturup sanatkar.ai'ı geliştirmemize katkıda bulunabilirsiniz!
+
+![new-issue](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/new-issue.png)
+
+sanatkar.ai repositorysini forkladıktan sonra bulduğunuz bir hata çözümünü, kaydettiğiniz bir ilerlemeyi, yaptığınız bir iyileştirmeyi paylaşmak için repository sayfasında pull request sekmesinden pull request oluşturabilirsiniz. 
+
+![new-pull-request](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/new-pull-request.png)
