@@ -130,7 +130,7 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
 
 # Karşılaşılan Hatalar
 
-- [Örnek Çıktılar](#örnek-çıktılar) başlığında bulunan çıktılara ek olarak elde edilen çıktılarda üretilen tiradların, şarkı sözlerine ve şiirlere kıyasla daha çok anlamsız ve kopuk cümleler barındırdığı gözlemlenmiştir. Bu nedenle tirad veri setlerine metin işleme işlemlerine ve temizliğe ihtiyaç duymaktadır. 
+- [Örnek Çıktılar](#örnek-çıktılar) başlığında bulunan çıktılara ek olarak elde edilen çıktılarda üretilen tiradların, şarkı sözlerine ve şiirlere kıyasla daha fazla anlamsız ve kopuk cümle barındırdığı gözlemlenmiştir. Bu nedenle tirad veri setleri, metin işleme işlemlerine ve temizliğe ihtiyaç duymaktadır. 
 
 # Katkıda Bulunmak
 
