@@ -256,18 +256,20 @@
             <h2 class="title gr-text-2 mb-6">Son Eserler</h2>
               <p class="gr-text-8 mb-8">Yapay zekamızın oluşturduğu son eserler: </p>
               <div class="row flex-lg-fill">
-                {% if archive == [] %}
-                <p class="gr-text-8 mb-8">Eser bulunamamıştır.</p>
-                {% else %}
-                {% for archive_element in archive %}
-                <div class="col-lg-3 mb-7 col-12 btn-11">
-                  <a class="d-block w-100 h-100 card archive-card" display href="/archive/{{archive_element.id}}">
-                    Arşiv Eseri: <span id="archiveno">{{archive_element.id}}</span>
-                    <p class="archive-detail">Seçilen Sanat Dalı: <span>Şarkı</span><br>Seçilen Sanat Alt Dalı: <span>Rock</span><br>Başlangıç Metni: <span>Arda dedi terkederken beni</span></p>  
-                  </a>
+                <div class="row flex-lg-fill">
+                  {% if archive == [] %}
+                    <p class="gr-text-8 mb-8">Eser bulunamamıştır.</p>
+                  {% else %}
+                    {% for archive_element in archive %}
+                      <div class="col-lg-3 mb-7 col-12 btn-11">
+                        <a class="d-block w-100 h-100 card archive-card pt-2" display href="/archive/{{archive_element.id}}">
+                          Arşiv Eseri: <span id="archiveno" class="mt-1">{{archive_element.id}}</span>
+                          <p class="archive-detail text-left pl-5 mb-2">Seçilen Sanat Dalı: <span>{{archive_element.art_branch}}</span><br>Seçilen Sanat Alt Dalı: <span>{{archive_element.genre}}</span></p>  
+                        </a>
+                      </div>
+                    {% endfor %}
+                  {% endif %}
                 </div>
-                {% endfor %}
-                {% endif %}
               </div>
           </div>
         </div>

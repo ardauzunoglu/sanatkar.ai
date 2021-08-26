@@ -1,6 +1,5 @@
 import tensorflow as tf
 import numpy as np
-from tensorflow.keras.layers.experimental import preprocessing
 from flask import Flask, render_template, request, redirect
 from flask.helpers import url_for
 from flask_sqlalchemy import SQLAlchemy
@@ -71,7 +70,10 @@ def generate_text(model_choice, seed, length):
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    archive = db.session.query(Archive).order_by(Archive.id.desc()).limit(4)[::-1]
+    print(archive)
+
+    return render_template("index.html", archive=archive)
 
 @app.route("/about")
 def about():
