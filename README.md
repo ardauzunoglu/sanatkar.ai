@@ -103,7 +103,7 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
 
 <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-1.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-3.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-2.png" width="250" height="250"> 
 <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-4.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-5.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-6.png" width="250" height="250">
-<img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-7.png" width="250" height="250">
+<img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-7.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-8.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-9.png" width="250" height="250">
 # Geliştirmeye Yönelik Öneriler
 
 - Yeni Modellerin Geliştirilmesine Dair Öneriler
