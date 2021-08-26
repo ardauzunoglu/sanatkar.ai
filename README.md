@@ -123,7 +123,7 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
 - Veri Setlerine Dair Öneriler
   - Kullanılan veri setleri genişletilebilir.
     - Şarkı sözü veri setleri Genius API aracılığı ile güncel veri setlerinde yer almayan sanatçıların eserleri çekilerek genişletilebilir.
-    - Tiyatro tiradı veri setlerinin genişletilebilmesi için şehir belediyeleri ile iletişime geçilip paylaşıma uygun gören tiyatro oyunlarındaki tiradlar veri setine eklenebilir. 
+    - Tiyatro tiradı veri setlerinin genişletilebilmesi için şehir belediyeleri ile iletişime geçilip paylaşıma uygun görülen tiyatro oyunlarındaki tiradlar veri setine eklenebilir. 
   - Şarkı sözü veri setlerinde kullanılan API'dan dolayı oluşan, şarkı sözü dışında kalan açıklama metinleri (örneğin Nakarat, Giriş, Chorus bilgileri) temizlenebilir.
   - Şarkı sözü veri setlerinde Türkçe hariç dillerin (Pop ve Rock veri setlerinde ağırlıklı olarak İngilizce; Rap veri setinde ağırlıklı olarak Almanca ve İngilizce) kullanıldığı dizeler temizlenebilir.
   - Şiir veri setlerinde nadiren de olsa karşılaşılan Türkçe karakter bozuklukları düzeltilebilir.
