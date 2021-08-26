@@ -98,7 +98,9 @@ def particular_archive_element(id):
     length_input = archived_generation.length_input
 
     output = str(generated_text).replace("_", "").replace(")", "").replace("(", "").replace("'", "").replace('"',"").split("\\n")
-    output = list(filter(None, output))[:-1]
+    
+    if art_branch != "Tirad":
+        output = list(filter(None, output))[:-1]
 
     return render_template("generator_output.html", id = id, output=output, art_branch=art_branch, genre=genre, seed_input=seed_input, length_input=length_input)
 
