@@ -120,6 +120,7 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
   - Modellerin açık döngü çıktısını stabilize etmek için ***curriculum learning*** uygulanabilir.
 
 - Web Sitesine Dair Öneriler 
+  - Modelin veri setine ne derece yakınlıkta çıktı vereceğini belirleyen temperature parametresi kullanıcıdan girdi olarak alınabilir.
   - Modellerin ürettiği çıktıların kaydedildiği arşiv sayfasına çeşitli filtreleme özellikleri (örneğin sanat dalı, sanat alt dalı, çıktı uzunluğu) getirilebilir.
   - Kullanıcıların beğenisi göz önünde bulundurulacak şekilde çıktıları *beğenme* ve *beğenmeme* opsiyonları getirilebilir ve bu opsiyonlar filtreleme özellikleri arasında yer alabilir. 
 
