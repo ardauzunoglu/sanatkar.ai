@@ -128,6 +128,10 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
   - Modellerin ürettiği çıktıların kaydedildiği arşiv sayfasına çeşitli filtreleme özellikleri (örneğin sanat dalı, sanat alt dalı, çıktı uzunluğu) getirilebilir.
   - Kullanıcıların beğenisi göz önünde bulundurulacak şekilde çıktıları *beğenme* ve *beğenmeme* opsiyonları getirilebilir ve bu opsiyonlar filtreleme özellikleri arasında yer alabilir. 
 
+# Karşılaşılan Hatalar
+
+- [Örnek Çıktılar](#örnek-çıktılar) başlığında bulunan çıktılara ek olarak elde edilen çıktılarda üretilen tiradların, şarkı sözlerine ve şiirlere kıyasla daha çok anlamsız ve kopuk cümleler barındırdığı gözlemlenmiştir. Bu nedenle tirad veri setlerine metin işleme işlemlerine ve temizliğe ihtiyaç duymaktadır. 
+
 # Katkıda Bulunmak
 
 Çalışmayı denerken karşılaştığınız bir sorunu issue açarak anlatabilir, yavaş çalışacağını düşündüğünüz bir kod parçacığını optimize edip pull request atabilir, çalışmayı iyileştireceğini ve ileri taşıyacağını düşündüğünüz değişikliklerde bulunabilirsiniz. Teşekkürler :blush: 
