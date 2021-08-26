@@ -2,14 +2,17 @@
 
 sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir ve tiyatro) doğal dil üretmek amacıyla karakter tabanlı tahmin işlemleri gerçekleştiren çok katmanlı **LSTM** bazlı **RNN** modelleri kullanan bir Türkçe doğal dil işleme uygulamasıdır. 
 
+[sanatkarai.com](https://sanatkarai.com)
+
 # README.md İçeriği
 
 [RNN Modelleri](#rnn-modelleri) <br>
 [Kullanılan Veri Setleri](#kullanılan-veri-setleri) <br>
 [Gereklilikler](#gereklilikler) <br>
 [Web Sitesi](#web-sitesi) <br>
+[Örnek Çıktılar](#örnek-çıktılar) <br>
 [Geliştirmeye Yönelik Öneriler](#geliştirmeye-yönelik-öneriler) <br>
-[Katkıda Bulunanlar](#katkıda-bulunanlar) <br>
+[Katkıda Bulunmak](#katkıda-bulunmak) <br>
 
 # RNN Modelleri
 
@@ -99,11 +102,12 @@ Bir karşılama sayfası ve dört ek sayfadan oluşan web sitesinin olabildiğin
 
 RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini gerçekleştiren backend bu işlemler için TensorFlow ve SQLAlchemy kütüphanelerinden faydalanmaktadır.
 
-# Galeri - Örnek Çıktılar
+# Örnek Çıktılar
 
 <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-1.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-3.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-2.png" width="250" height="250"> 
 <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-4.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-5.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-6.png" width="250" height="250">
-<img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-7.png" width="250" height="250">
+<img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-7.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-8.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-9.png" width="250" height="250">
+
 # Geliştirmeye Yönelik Öneriler
 
 - Yeni Modellerin Geliştirilmesine Dair Öneriler
@@ -123,6 +127,10 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
   - Modelin veri setine ne derece yakınlıkta çıktı vereceğini belirleyen temperature parametresi kullanıcıdan girdi olarak alınabilir.
   - Modellerin ürettiği çıktıların kaydedildiği arşiv sayfasına çeşitli filtreleme özellikleri (örneğin sanat dalı, sanat alt dalı, çıktı uzunluğu) getirilebilir.
   - Kullanıcıların beğenisi göz önünde bulundurulacak şekilde çıktıları *beğenme* ve *beğenmeme* opsiyonları getirilebilir ve bu opsiyonlar filtreleme özellikleri arasında yer alabilir. 
+
+# Karşılaşılan Hatalar
+
+- [Örnek Çıktılar](#örnek-çıktılar) başlığında bulunan çıktılara ek olarak elde edilen çıktılarda üretilen tiradların, şarkı sözlerine ve şiirlere kıyasla daha çok anlamsız ve kopuk cümleler barındırdığı gözlemlenmiştir. Bu nedenle tirad veri setlerine metin işleme işlemlerine ve temizliğe ihtiyaç duymaktadır. 
 
 # Katkıda Bulunmak
 
