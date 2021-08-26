@@ -2,6 +2,8 @@
 
 sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir ve tiyatro) doğal dil üretmek amacıyla karakter tabanlı tahmin işlemleri gerçekleştiren çok katmanlı **LSTM** bazlı **RNN** modelleri kullanan bir Türkçe doğal dil işleme uygulamasıdır. 
 
+[sanatkarai.com](sanatkarai.com)
+
 # README.md İçeriği
 
 [RNN Modelleri](#rnn-modelleri) <br>
