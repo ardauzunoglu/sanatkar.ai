@@ -99,6 +99,16 @@ Bir karşılama sayfası ve dört ek sayfadan oluşan web sitesinin olabildiğin
 
 RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini gerçekleştiren backend bu işlemler için TensorFlow ve SQLAlchemy kütüphanelerinden faydalanmaktadır.
 
+# Galeri - Örnek Çıktılar
+
+![Örnek Çıktı 1](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-1.png)
+![Örnek Çıktı 2](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-3.png)
+![Örnek Çıktı 3](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-2.png)
+![Örnek Çıktı 4](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-4.png)
+![Örnek Çıktı 5](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-5.png)
+![Örnek Çıktı 6](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-6.png)
+![Örnek Çıktı 7](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-7.png)
+
 # Geliştirmeye Yönelik Öneriler
 
 - Yeni Modellerin Geliştirilmesine Dair Öneriler
