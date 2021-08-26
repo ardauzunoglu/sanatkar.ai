@@ -108,12 +108,22 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
 <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-4.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-5.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-6.png" width="250" height="250">
 <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-7.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-8.png" width="250" height="250"> <img src="https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/output-9.png" width="250" height="250">
 
+# Elde Edilen Bulgular
+
+- RNN modellerinin eğitiminde kullanılan veri setlerinin boyutları ile eğitilen modelin doğruluk oranı arasında ters, loss değeri arasında doğru orantı gözlemlenmiştir.
+- Şarkı veri setlerinde bulunan yabancı dildeki sözler veri setinin çok küçük bir yüzdesini oluştursa bile nadir de olsa üretilen çıktılarda yabancı dillerden sözcüklere denk gelinebilmektedir.
+- Doğruluk oranı geliştirilen modeller arasında en yüksek olan kadın karakter tiradı üreten modelin ürettiği çıktılarda dil bilgisi hataları ve anlamsal kopukluklar gözlemlenirken doğruluk oranı geliştirilen modeller arasında en düşük olan rap şarkı sözü üreten modelin ürettiği çıktılarda dil bilgisi hataları ve anlamsal kopukluklar çok daha nadir gözlemlenmiştir. Bu nedenle doğruluk oranı modelin başarısını değerlendirmek için birincil kriter olarak görülmemektedir.
+- Birinci ve üçüncü bulgular göz önüne alındığında kullanılan veri setinin boyutu arttıkça modelin doğruluk oranı azalsa da ürettiği metin tutarlı ve hatasız olmaktadır.
+
 # Geliştirmeye Yönelik Öneriler
 
 - Yeni Modellerin Geliştirilmesine Dair Öneriler
   - Oluşturulacak yeni veri setleri ile bir tiyatro senaryosu içerisinde yer alan kurgu ve diyalog gibi elementlerin üretimini sağlayan yeni modeller geliştirilebilir. Geliştirilen bu modeller tirad üretimi gerçekleştiren model ile birlikte kullanılarak bütüncül tiyatro oyunları oluşturulabilir.
 
 - Veri Setlerine Dair Öneriler
+  - Kullanılan veri setleri genişletilebilir.
+    - Şarkı sözü veri setleri Genius API aracılığı ile güncel veri setlerinde yer almayan sanatçıların eserleri çekilerek genişletilebilir.
+    - Tiyatro tiradı veri setlerinin genişletilebilmesi için şehir belediyeleri ile iletişime geçilip paylaşıma uygun gören tiyatro oyunlarındaki tiradlar veri setine eklenebilir. 
   - Şarkı sözü veri setlerinde kullanılan API'dan dolayı oluşan, şarkı sözü dışında kalan açıklama metinleri (örneğin Nakarat, Giriş, Chorus bilgileri) temizlenebilir.
   - Şarkı sözü veri setlerinde Türkçe hariç dillerin (Pop ve Rock veri setlerinde ağırlıklı olarak İngilizce; Rap veri setinde ağırlıklı olarak Almanca ve İngilizce) kullanıldığı dizeler temizlenebilir.
   - Şiir veri setlerinde nadiren de olsa karşılaşılan Türkçe karakter bozuklukları düzeltilebilir.
@@ -137,6 +147,7 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
 Çalışmayı denerken karşılaştığınız bir sorunu issue açarak anlatabilir, yavaş çalışacağını düşündüğünüz bir kod parçacığını optimize edip pull request atabilir, çalışmayı iyileştireceğini ve ileri taşıyacağını düşündüğünüz değişikliklerde bulunabilirsiniz. Teşekkürler :blush: 
 
 ### Katkıda Bulunanlar
+- Geliştirici ekip: Yayla
 - Yapay zekâ ve backend geliştiricisi: [Arda Uzunoğlu](https://github.com/ardauzunoglu)
 - Frontend geliştiricisi: [Ege Dinnen](https://github.com/egedinnen)
 
