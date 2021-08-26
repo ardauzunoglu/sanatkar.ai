@@ -4,12 +4,12 @@ sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir
 
 # README.md İçeriği
 
-[RNN Modelleri](#rnn-modelleri)
-[Kullanılan Veri Setleri](#kullanılan-veri-setleri)
-[Gereklilikler](#gereklilikler)
-[Web Sitesi](#web-sitesi)
-[Geliştirmeye Yönelik Öneriler](#gelistirmeye-yönelik-öneriler)
-[Katkıda Bulunanlar](#katkıda-bulunanlar)
+[RNN Modelleri](#rnn-modelleri) <br>
+[Kullanılan Veri Setleri](#kullanılan-veri-setleri) <br>
+[Gereklilikler](#gereklilikler) <br>
+[Web Sitesi](#web-sitesi) <br>
+[Geliştirmeye Yönelik Öneriler](#gelistirmeye-yönelik-öneriler) <br>
+[Katkıda Bulunanlar](#katkıda-bulunanlar) <br>
 
 # RNN Modelleri
 
