@@ -51,7 +51,8 @@ def generate_text(model_choice, seed, length):
 
     used_model = model_dict[model_choice]
     art_form_of_model = art_form_dict[model_choice]
-    model = tf.saved_model.load("models/"+art_form_of_model+"/"+used_model)
+    model_directory = "models/"+art_form_of_model+"/"+used_model
+    model = tf.saved_model.load(model_directory)
 
     states = None
 
