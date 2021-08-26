@@ -142,10 +142,4 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
 
 ### Katkıda Bulunma Rehberi
 
-sanatkar.ai repository sayfasında 'issue' sekmesinde yeni bir issue oluşturup sanatkar.ai'ı geliştirmemize katkıda bulunabilirsiniz!
-
-![new-issue](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/new-issue.png)
-
-sanatkar.ai repositorysini forkladıktan sonra bulduğunuz bir hata çözümünü, kaydettiğiniz bir ilerlemeyi, yaptığınız bir iyileştirmeyi paylaşmak için repository sayfasında pull request sekmesinden pull request oluşturabilirsiniz. 
-
-![new-pull-request](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/new-pull-request.png)
+Katkıda bulunmak istiyorsanız [CONTRIBUTING.md](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/CONTRIBUTING.md) dosyasını inceleyip kolları sıvayabilirsiniz! Teşekkürler :blush:
