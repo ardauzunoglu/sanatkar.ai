@@ -142,4 +142,4 @@ RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini 
 
 ### Katkıda Bulunma Rehberi
 
-Katkıda bulunmak istiyorsanız [CONTRIBUTING.md](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/CONTRIBUTING.md) dosyasını inceleyip kolları sıvayabilirsiniz! Teşekkürler :blush:
+Katkıda bulunmak istiyorsanız [CONTRIBUTING.md](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/CONTRIBUTING.md) dosyasını inceleyip kolları sıvayabilirsiniz!
