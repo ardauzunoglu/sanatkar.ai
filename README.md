@@ -1,10 +1,34 @@
 ![sanatkar.ai](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/sanatkar.ai.png)
 
-sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir ve tiyatro) doğal dil üretmek amacıyla karakter tabanlı tahmin işlemleri gerçekleştiren **RNN** modelleri kullanan bir Türkçe doğal dil işleme uygulamasıdır. 
+sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir ve tiyatro) doğal dil üretmek amacıyla karakter tabanlı tahmin işlemleri gerçekleştiren çok katmanlı **LSTM** bazlı **RNN** modelleri kullanan bir Türkçe doğal dil işleme uygulamasıdır. 
+
+# RNN Modelleri
+
+Doğal dil üretimi gerçekleştiren çok katmanlı LSTM bazlı RNN modelleri çıktıyı oluştururken 'Bir karakter veya bir karakter dizisi verildiğinde, onları takip edecek en olası karakter nedir?' sorusuna yanıt bulmak amacıyla karakter temelli tahmin işlemleri gerçekleştirmektedir. 
+
+![char-based-prediction](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/sanatkar.ai-char-based-prediction.png)
+
+### Modellerin Geliştirilmesi[*](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/creating_text_generators.ipynb)
+
+Detaylı bilgi için [creating_text_generators.ipynb](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/creating_text_generators.ipynb) dosyasına göz atabilirsiniz.
+
+### Modellerin Değerlendirilmesi
+
+| Model | Eğitim Veri Seti | Epoch | Doğruluk Oranı | Loss Değeri |
+|-------|------------------|-------|----------------|-------------|
+| Kadın Karakter Tirad | [kadin_tirad_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/tirad_veri_setleri/kadin_tirad_veri_setleri/kadin_tirad_veri_seti.txt) | 125 | 0.9846 | 0.0478 |
+| Garip Şiiri | [garip-siiri-veri-seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/siir_veri_setleri/garip_siiri_veri_setleri/garip-siiri-veri-seti.txt) | 75 | 0.9839 | 0.0572 |
+| Erkek Karakter Tirad | [erkek_tirad_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/tirad_veri_setleri/erkek_tirad_veri_setleri/erkek_tirad_veri_seti.txt) | 125 | 0.9834 | 0.0531 |
+| Cumhuriyet Dönemi Saf Şiir | [cumhuriyet-donemi-saf-siir-veri-seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/siir_veri_setleri/cumhuriyet_donemi_saf_siir_veri_setleri/cumhuriyet-donemi-saf-siir-veri-seti.txt) | 100 | 0.9800 | 0.0591 | 
+| Milli Edebiyat | [milli_edebiyat_veri-seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/siir_veri_setleri/milli_edebiyat_veri_setleri/milli_edebiyat_veri-seti.txt) | 60 | 0.9780 | 0.0732 |
+| Rock | [rock_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/sarki_veri_setleri/rock_veri_setleri/rock_veri_seti.txt) | 30 | 0.9666 | 0.1403 |
+| Pop | [pop_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/sarki_veri_setleri/pop_veri_setleri/pop_veri_seti.txt) | 30 | 0.8330 | 0.5169 |
+| Rap | [rap_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/sarki_veri_setleri/rap_veri_setleri/rap_veri_seti.txt) | 15 | 0.5801 | 1.3477 |
+
 
 # Kullanılan Veri Setleri[*](https://github.com/ardauzunoglu/sanatkar.ai/tree/main/data-sets)
 
-sanatkar.ai üç farklı sanat dalının sekiz farklı alt dalında doğal dil üretmektedir. Her bir alt dala ait **kapsamlı *ana* veri seti** bulunmaktayken ana veri setini oluşturan ***tekil* veri setleri** de mevcuttur. Veri setlerine ulaşmak için [tıklayabilirsiniz](https://github.com/ardauzunoglu/sanatkar.ai/tree/main/data-sets).
+sanatkar.ai üç farklı sanat dalının sekiz farklı alt dalında doğal dil üretmektedir. Her bir alt dala ait **kapsamlı *ana* veri seti** bulunmaktayken ana veri setini oluşturan ***tekil* veri setleri** de mevcuttur.
 
 ### Veri Seti Büyüklükleri 
 
@@ -35,29 +59,6 @@ sanatkar.ai üç farklı sanat dalının sekiz farklı alt dalında doğal dil �
 ##### Tiyatro Tiradı Veri Setlerinin Oluşturulması
 
 Tiyatro tiradı veri setleri [Ankara Akademi Sanat](http://www.ankaraakademisanat.com/erkek-tiradlari)'ın açık arşivindeki tiradların manuel olarak aynı metin dosyasına taşınmasıyla elde edilmiştir. 
-
-# RNN Modelleri
-
-Doğal dil üretimi gerçekleştiren RNN modelleri çıktıyı oluştururken 'Bir karakter veya bir karakter dizisi verildiğinde, onları takip edecek en olası karakter nedir?' sorusuna yanıt bulmak amacıyla karakter temelli tahmin işlemleri gerçekleştirmektedir. 
-
-![char-based-prediction](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/sanatkar.ai-char-based-prediction.png)
-
-### Modellerin Geliştirilmesi[*](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/creating_text_generators.ipynb)
-
-Detaylı bilgi için [creating_text_generators.ipynb](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/creating_text_generators.ipynb) dosyasına göz atabilirsiniz.
-
-### Modellerin Değerlendirilmesi
-
-| Model | Eğitim Veri Seti | Epoch | Doğruluk Oranı | Loss Değeri |
-|-------|------------------|-------|----------------|-------------|
-| Kadın Karakter Tirad | [kadin_tirad_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/tirad_veri_setleri/kadin_tirad_veri_setleri/kadin_tirad_veri_seti.txt) | 125 | 0.9846 | 0.0478 |
-| Garip Şiiri | [garip-siiri-veri-seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/siir_veri_setleri/garip_siiri_veri_setleri/garip-siiri-veri-seti.txt) | 75 | 0.9839 | 0.0572 |
-| Erkek Karakter Tirad | [erkek_tirad_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/tirad_veri_setleri/erkek_tirad_veri_setleri/erkek_tirad_veri_seti.txt) | 125 | 0.9834 | 0.0531 |
-| Cumhuriyet Dönemi Saf Şiir | [cumhuriyet-donemi-saf-siir-veri-seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/siir_veri_setleri/cumhuriyet_donemi_saf_siir_veri_setleri/cumhuriyet-donemi-saf-siir-veri-seti.txt) | 100 | 0.9800 | 0.0591 | 
-| Milli Edebiyat | [milli_edebiyat_veri-seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/siir_veri_setleri/milli_edebiyat_veri_setleri/milli_edebiyat_veri-seti.txt) | 60 | 0.9780 | 0.0732 |
-| Rock | [rock_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/sarki_veri_setleri/rock_veri_setleri/rock_veri_seti.txt) | 30 | 0.9666 | 0.1403 |
-| Pop | [pop_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/sarki_veri_setleri/pop_veri_setleri/pop_veri_seti.txt) | 30 | 0.8330 | 0.5169 |
-| Rap | [rap_veri_seti.txt](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/data-sets/sarki_veri_setleri/rap_veri_setleri/rap_veri_seti.txt) | 15 | 0.5801 | 1.3477 |
 
 # Gereklilikler 
 
