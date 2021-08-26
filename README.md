@@ -2,7 +2,7 @@
 
 sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir ve tiyatro) doğal dil üretmek amacıyla karakter tabanlı tahmin işlemleri gerçekleştiren **RNN** modelleri kullanan bir Türkçe doğal dil işleme uygulamasıdır. 
 
-# Kullanılan Veri Setleri
+# Kullanılan Veri Setleri[*](https://github.com/ardauzunoglu/sanatkar.ai/tree/main/data-sets)
 
 sanatkar.ai üç farklı sanat dalının sekiz farklı alt dalında doğal dil üretmektedir. Her bir alt dala ait **kapsamlı *ana* veri seti** bulunmaktayken ana veri setini oluşturan ***tekil* veri setleri** de mevcuttur. Veri setlerine ulaşmak için [tıklayabilirsiniz](https://github.com/ardauzunoglu/sanatkar.ai/tree/main/data-sets).
 
@@ -40,21 +40,21 @@ Tiyatro tiradı veri setleri [Ankara Akademi Sanat](http://www.ankaraakademisana
 
 'pip install -r requirements_for_model_creation.txt' ve 'pip install -r requirements_for_website.txt' komutları ile yerel cihazınıza gerekli kütüphanelerin kurulumunu gerçekleştirebilirsiniz.
 
-### Model Oluşturmak İçin Gereklilikler
+### Model Oluşturmak İçin Gereklilikler[*](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/requirements_for_model_creation.txt)
 
 > tensorflow==2.6.0 <br>
 > nltk==3.6.2 <br>
 > urllib3==1.26.6 <br>
 > numpy==1.21.2 <br>
 
-### Web Sitesi İçin Gereklilikler
+### Web Sitesi İçin Gereklilikler[*](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/requirements_for_website.txt)
 
 > tensorflow==2.6.0 <br>
 > numpy==1.21.2 <br>
 > Flask==2.0.1 <br>
 > Flask-SQLAlchemy==2.5.1 <br>
 
-# Web Sitesi
+# Web Sitesi[*](https://github.com/ardauzunoglu/sanatkar.ai/tree/main/website)
 
 Doğal dil üretimi gerçekleştiren modellerin kullanıcı kullanımına açıldığı web sitesi backend'de Python yazılım dilinin Flask kütüphanesini; frontend'de HTML, CSS işaretleme dilleri ile JavaScript'in Jquery kütüphanesini kullanmaktadır. 
 
