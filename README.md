@@ -1,4 +1,4 @@
-![sanatkar.ai](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/sanatkar.ai.png)
+![sanatkar.ai](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/sanatkar.ai.png)
 
 sanatkar.ai, çeşitli **yazılı sanat** dallarında (şu anlık şarkı, şiir ve tiyatro) doğal dil üretmek amacıyla karakter tabanlı tahmin işlemleri gerçekleştiren **RNN** modelleri kullanan bir Türkçe doğal dil işleme uygulamasıdır. 
 
@@ -40,7 +40,7 @@ Tiyatro tiradı veri setleri [Ankara Akademi Sanat](http://www.ankaraakademisana
 
 Doğal dil üretimi gerçekleştiren RNN modelleri çıktıyı oluştururken 'Bir karakter veya bir karakter dizisi verildiğinde, onları takip edecek en olası karakter nedir?' sorusuna yanıt bulmak amacıyla karakter temelli tahmin işlemleri gerçekleştirmektedir. 
 
-![char-based-prediction]()
+![char-based-prediction](https://raw.githubusercontent.com/ardauzunoglu/sanatkar.ai/main/readme_images/sanatkar.ai-char-based-prediction.png)
 
 ### Modellerin Geliştirilmesi[*](https://github.com/ardauzunoglu/sanatkar.ai/blob/main/creating_text_generators.ipynb)
 
@@ -88,6 +88,25 @@ Bir karşılama sayfası ve dört ek sayfadan oluşan web sitesinin olabildiğin
 ### Backend
 
 RNN modellerinin doğal dil üretim işlemlerini ve veritabanı iletişimlerini gerçekleştiren backend bu işlemler için TensorFlow ve SQLAlchemy kütüphanelerinden faydalanmaktadır.
+
+# Geliştirmeye Yönelik Öneriler
+
+- Yeni Modellerin Geliştirilmesine Dair Öneriler
+  - Oluşturulacak yeni veri setleri ile bir tiyatro senaryosu içerisinde yer alan kurgu ve diyalog gibi elementlerin üretimini sağlayan yeni modeller geliştirilebilir. Geliştirilen bu modeller tirad üretimi gerçekleştiren model ile birlikte kullanılarak bütüncül tiyatro oyunları oluşturulabilir.
+
+- Veri Setlerine Dair Öneriler
+  - Şarkı sözü veri setlerinde kullanılan API'dan dolayı oluşan, şarkı sözü dışında kalan açıklama metinleri (örneğin Nakarat, Giriş, Chorus bilgileri) temizlenebilir.
+  - Şarkı sözü veri setlerinde Türkçe hariç dillerin (Pop ve Rock veri setlerinde ağırlıklı olarak İngilizce; Rap veri setinde ağırlıklı olarak Almanca ve İngilizce) kullanıldığı dizeler temizlenebilir.
+  - Şiir veri setlerinde nadiren de olsa karşılaşılan Türkçe karakter bozuklukları düzeltilebilir.
+  - Tirad veri setlerinde sıklıkla kullanılan noktalama işaretleri arasında var olan hatalar (örneğin noktalama işaretinden önce boşluk bırakılması) düzeltilebilir.
+
+- RNN Modellerine Dair Öneriler
+  - Modellerin her biri özelleştirilmiş eğitimden geçirilebilir. Bu aşamada kullanılan eğitim, gerçekleşen kötü tahminlerin modellere geri gitmesini engellemekte dolayısıyla modellerin hatalarından öğrenmesine engel olmaktadır. 
+  - Modellerin açık döngü çıktısını stabilize etmek için ***curriculum learning*** uygulanabilir.
+
+- Web Sitesine Dair Öneriler 
+  - Modellerin ürettiği çıktıların kaydedildiği arşiv sayfasına çeşitli filtreleme özellikleri (örneğin sanat dalı, sanat alt dalı, çıktı uzunluğu) getirilebilir.
+  - Kullanıcıların beğenisi göz önünde bulundurulacak şekilde çıktıları *beğenme* ve *beğenmeme* opsiyonları getirilebilir ve bu opsiyonlar filtreleme özellikleri arasında yer alabilir. 
 
 # Contributors
 - Yapay zekâ ve backend geliştiricisi: [Arda Uzunoğlu](https://github.com/ardauzunoglu)
